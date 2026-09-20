@@ -303,7 +303,7 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
                   href={`tel:${siteConfig.phoneRaw}`}
                   className="block text-center bg-white/10 hover:bg-white/20 text-white font-bold text-xs py-2.5 rounded-lg transition mt-3"
                 >
-                  Call for Estimate
+                  📞 Call: {siteConfig.phone}
                 </a>
               </div>
 
@@ -317,7 +317,7 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
                   href={`tel:${siteConfig.phoneRaw}`}
                   className="block text-center bg-orange-600 hover:bg-orange-500 text-white font-bold text-xs py-2.5 rounded-lg transition mt-3"
                 >
-                  Call for Estimate
+                  📞 Call: {siteConfig.phone}
                 </a>
               </div>
 
@@ -331,7 +331,7 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
                   href={`tel:${siteConfig.phoneRaw}`}
                   className="block text-center bg-white/10 hover:bg-white/20 text-white font-bold text-xs py-2.5 rounded-lg transition mt-3"
                 >
-                  Call for Estimate
+                  📞 Call: {siteConfig.phone}
                 </a>
               </div>
             </div>

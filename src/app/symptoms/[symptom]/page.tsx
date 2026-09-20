@@ -129,7 +129,7 @@ export default async function SymptomPage({ params }: PageProps) {
                   href="/#services"
                   className="inline-flex items-center gap-1.5 bg-white/10 hover:bg-white/15 text-white font-bold text-xs sm:text-sm px-5 py-3.5 rounded-xl transition"
                 >
-                  <span>View Cleaning Packages</span>
+                  <span>Explore All Services</span>
                   <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

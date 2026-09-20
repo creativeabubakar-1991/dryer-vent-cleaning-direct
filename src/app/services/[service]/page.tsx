@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const title = `${service.name} | Nationwide Certified Service | ${siteConfig.name}`;
-  const description = `${service.hero_description} Flat-rate pricing, same-day dispatch across 50 states. Call ${siteConfig.phone}.`;
+  const description = `${service.hero_description} Free phone estimates, same-day dispatch across 50 states. Call ${siteConfig.phone}.`;
   const canonicalUrl = `${siteConfig.domain}/services/${service.slug}/`;
 
   return {

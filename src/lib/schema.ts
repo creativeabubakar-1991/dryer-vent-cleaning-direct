@@ -94,8 +94,11 @@ export function generateLocalBusinessSchema(city: CityData) {
             "name": `Residential Rotary Dryer Vent Cleaning in ${city.city}`,
             "description": `Certified rotary brush and HEPA extraction cleaning for residential dryer vents in ${city.city}, ${city.state}.`,
           },
-          "price": "99.00",
-          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "priceCurrency": "USD",
+            "description": "Free phone estimate and upfront flat quote",
+          },
         },
         {
           "@type": "Offer",
@@ -106,9 +109,8 @@ export function generateLocalBusinessSchema(city: CityData) {
           },
           "priceSpecification": {
             "@type": "PriceSpecification",
-            "minPrice": "179.00",
-            "maxPrice": "249.00",
             "priceCurrency": "USD",
+            "description": "Free phone estimate and upfront flat quote",
           },
         },
       ],
