@@ -1,0 +1,44 @@
+[
+  {
+    "title": "USFA & FEMA Dryer Fire Safety Report: Causes & Prevention",
+    "slug": "dryer-vent-fire-safety-guide",
+    "excerpt": "According to FEMA, 2,900 home clothes dryer fires are reported each year causing $35M in property damage. 34% are caused by uncleaned lint.",
+    "read_time": "5 min read",
+    "category": "Fire Prevention"
+  },
+  {
+    "title": "How Often Should Dryer Vents Be Cleaned? (Official Guidelines)",
+    "slug": "how-often-should-dryer-vents-be-cleaned",
+    "excerpt": "National Fire Protection Association (NFPA) rules on annual dryer exhaust maintenance, 2-story rooftop venting rules, and multi-pet homes.",
+    "read_time": "4 min read",
+    "category": "Maintenance"
+  },
+  {
+    "title": "Dryer Takes 2 Cycles to Dry? 5 Warning Signs of a Clog",
+    "slug": "dryer-takes-two-cycles-warning-signs",
+    "excerpt": "Don't ignore long drying times. Learn how restricted exhaust airflow damages heating elements and inflates monthly utility bills.",
+    "read_time": "6 min read",
+    "category": "Diagnostics"
+  },
+  {
+    "title": "How to Fix LG & Samsung Dryer Flow Sense Error D80 / D90",
+    "slug": "dryer-error-code-d80-d90-fix",
+    "excerpt": "Step-by-step guide to clearing internal lint traps and main exhaust ducts when your dryer's digital display reports an 80% or 90% air blockage.",
+    "read_time": "5 min read",
+    "category": "Troubleshooting"
+  },
+  {
+    "title": "Rigid Metal vs Foil vs Vinyl: Building Code M1502 Guide",
+    "slug": "rigid-metal-vs-foil-dryer-ducts",
+    "excerpt": "Why plastic and flexible vinyl transition ducts are illegal under International Residential Code and represent severe home fire hazards.",
+    "read_time": "7 min read",
+    "category": "Building Codes"
+  },
+  {
+    "title": "Commercial Laundromat & Multi-Family Dryer Vent Compliance",
+    "slug": "commercial-laundromat-dryer-vent-compliance",
+    "excerpt": "Annual compliance documentation requirements for commercial properties, hotels, and HOAs to satisfy fire marshals and property insurers.",
+    "read_time": "8 min read",
+    "category": "Commercial"
+  }
+]

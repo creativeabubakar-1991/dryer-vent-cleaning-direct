@@ -1,0 +1,246 @@
+[
+  {
+    "name": "Residential Dryer Vent Cleaning",
+    "slug": "residential-dryer-vent-cleaning",
+    "short_title": "Dryer Vent Cleaning",
+    "hero_description": "Certified rotary brush and industrial HEPA negative-air extraction for residential dryer vents across all 50 states. Removes highly flammable lint, cuts drying cycles in half, and eliminates fire risks.",
+    "average_cost": "$99 - $149",
+    "estimated_duration": "45 - 60 Minutes",
+    "symptoms": [
+      "Clothes take 2 to 3 full cycles to dry completely",
+      "Top and sides of clothes dryer feel excessively hot to the touch",
+      "Burning lint odor or humid musty smell in the laundry room",
+      "Exterior exhaust flap barely opens or lint accumulates around the outdoor hood",
+      "Dryer error code D80, D90, or Flow Sense indicator warning light"
+    ],
+    "diagnostic_steps": [
+      "Pre-cleaning anemometer airflow velocity CFM measurement at the outdoor terminal",
+      "Visual camera borescopic inspection of duct interior and connection points",
+      "High-speed forward-reverse rotary brush scrubbing through the full duct length",
+      "Commercial HEPA negative-pressure vacuum extraction to contain all dislodged lint",
+      "Post-cleaning CFM airflow verification and thermal safety check"
+    ],
+    "faqs": [
+      {
+        "question": "How often should a residential dryer vent be professionally cleaned?",
+        "answer": "The US Fire Administration (USFA) and National Fire Protection Association (NFPA) recommend having your dryer vent inspected and cleaned at least once every 12 months. Homes with large families running 5+ loads weekly, pets shedding hair, or vent duct runs exceeding 25 feet should clean them every 6 to 9 months."
+      },
+      {
+        "question": "Does cleaning the lint trap prevent dryer fires?",
+        "answer": "No. While clearing the lint screen before every load is essential, lint screens capture only 40% to 60% of airborne fibers. The rest passes through the blower wheel into the exhaust ductwork, where it accumulates on pipe walls and creates an explosive tinderbox."
+      },
+      {
+        "question": "Can clean dryer vents really lower my electric bill?",
+        "answer": "Yes. When a vent is clogged, your dryer operates for 90 to 120 minutes instead of 40 minutes per load. Professional lint clearing restores unrestricted airflow, saving average households $18 to $24 per month ($216 - $288 annually) in electricity or gas consumption."
+      }
+    ]
+  },
+  {
+    "name": "Rooftop Dryer Vent Cleaning",
+    "slug": "rooftop-dryer-vent-cleaning",
+    "short_title": "Rooftop Vent Cleaning",
+    "hero_description": "Specialized roof-access dryer vent cleaning, dampered exhaust cap service, and heavy lint removal for two-story homes, townhouses, and multistory properties nationwide.",
+    "average_cost": "$179 - $249",
+    "estimated_duration": "1 - 1.5 Hours",
+    "symptoms": [
+      "Exhaust duct travels upward through walls or attic to a rooftop termination cap",
+      "Heavy lint buildup or bird nesting visible around the roof vent cap",
+      "Clothes dryer turns off automatically due to high-limit thermal switch trip",
+      "Laundry room walls sweating or showing condensation moisture during cycles",
+      "Water dripping down the transition duct from the attic ceiling"
+    ],
+    "diagnostic_steps": [
+      "Full roof safety harness setup and exterior roof cap damper inspection",
+      "Removal of bird nests, rodent debris, and hardened lint cakes from the roof hood",
+      "Down-and-up dual-direction rotary rod agitation from both roof and laundry room",
+      "HEPA containment vacuum extraction preventing lint discharge onto roof shingles",
+      "Rooftop flashing seal verification to prevent rain and snow leaks into attic"
+    ],
+    "faqs": [
+      {
+        "question": "Why do rooftop dryer vents clog much faster than side-wall vents?",
+        "answer": "Rooftop vents force hot, moist lint air to travel vertically against gravity (often 15 to 30 feet). As the air rises and cools, moisture condenses on metal duct walls, turning loose lint into sticky, cement-like sludge that coats the pipe and rapidly closes the airway."
+      },
+      {
+        "question": "Do your technicians have OSHA-compliant safety equipment for steep roofs?",
+        "answer": "Yes. All our certified technicians carry OSHA-approved ladder stabilizers, roof pitch anchors, and safety harnesses to service single-story, two-story, and steep-slope residential roofs safely."
+      }
+    ]
+  },
+  {
+    "name": "Dryer Vent Repair & Replacement",
+    "slug": "dryer-vent-repair-replacement",
+    "short_title": "Vent Repair & Replacement",
+    "hero_description": "Code-compliant replacement of ripped, crushed foil or hazardous plastic transition hoses with rigid, fire-rated UL 2158A smooth metal ductwork.",
+    "average_cost": "$150 - $350",
+    "estimated_duration": "1 - 2 Hours",
+    "symptoms": [
+      "White vinyl, flexible plastic, or corrugated foil accordion hose behind dryer",
+      "Visible duct punctures, crushed sections, or detached joints in crawlspace/attic",
+      "Dryer pushed back against the wall, kinking or flattening the transition hose",
+      "Carbon monoxide detector sounding near gas dryer installations",
+      "Lint accumulation behind drywall, baseboards, or under laundry room subfloors"
+    ],
+    "diagnostic_steps": [
+      "Comprehensive IRC Section M1502 residential building code compliance audit",
+      "Smoke pen leak detection test at all duct seams, elbows, and drywall penetrations",
+      "Removal and safe disposal of non-code vinyl or crushed accordion flex ducts",
+      "Installation of 26-gauge rigid smooth-wall galvanized steel or aluminum piping",
+      "Metallic foil tape sealing (zero screws penetrating duct interior to prevent lint snags)"
+    ],
+    "faqs": [
+      {
+        "question": "Why are plastic or thin foil dryer hoses illegal in modern building codes?",
+        "answer": "Under International Residential Code (IRC M1502), flexible plastic and unlisted vinyl ducts are strict fire code violations because they melt easily and act as an accelerant during a lint fire. Rigid smooth-walled metal pipe contains fires and prevents lint accumulation."
+      },
+      {
+        "question": "Can screws be used to connect dryer duct sections?",
+        "answer": "Never. Screws that penetrate the inside of a dryer duct act as lint catchers, rapidly snagging fibers and causing severe blockages. International building codes require seams to be mechanically connected with non-penetrating clamps and sealed with UL-listed aluminum foil tape."
+      }
+    ]
+  },
+  {
+    "name": "Dryer Vent Rerouting & Optimization",
+    "slug": "dryer-vent-rerouting",
+    "short_title": "Vent Rerouting",
+    "hero_description": "Redesigning overly long, excessively bent, or poorly routed dryer ductwork to achieve the shortest, straightest, and safest path to outdoor exhaust.",
+    "average_cost": "$250 - $550",
+    "estimated_duration": "2 - 3 Hours",
+    "symptoms": [
+      "Duct run exceeds 35 equivalent feet with multiple 90-degree elbows",
+      "Duct exhausts into an attic, crawlspace, garage, or chimney rather than outdoors",
+      "Dryer runs hot because excessive backpressure chokes the blower motor",
+      "Frequent recurring clogs requiring service every 2-3 months",
+      "Remodeling or relocating washer and dryer to an interior room"
+    ],
+    "diagnostic_steps": [
+      "Total equivalent length engineering calculation (accounting for elbows and dampers)",
+      "Core drilling new exterior penetration through brick, stucco, siding, or foundation",
+      "Rerouting ductwork along joists to eliminate unnecessary 90-degree sharp bends",
+      "Installation of smooth-sweep 45-degree elbows to maximize continuous airflow",
+      "Exterior weather-sealed damper hood installation with animal protection"
+    ],
+    "faqs": [
+      {
+        "question": "What is the maximum allowed length for a dryer exhaust duct?",
+        "answer": "Under standard building codes (IRC M1502.4.6.1), the maximum developed duct run is 35 feet from dryer connection to outdoor exhaust. Each 90-degree elbow reduces this maximum by 5 feet, and each 45-degree elbow reduces it by 2.5 feet. If your run exceeds this, rerouting or a booster fan is mandatory."
+      }
+    ]
+  },
+  {
+    "name": "Bird Nest Removal & Exterior Pest Guard",
+    "slug": "bird-nest-pest-guard-installation",
+    "short_title": "Bird Nest & Pest Guards",
+    "hero_description": "Safe extraction of birds, squirrels, rodents, and nests from dryer vents, followed by installation of heavy-gauge steel pest-exclusion covers.",
+    "average_cost": "$119 - $189",
+    "estimated_duration": "45 - 60 Minutes",
+    "symptoms": [
+      "Chirping, scratching, or fluttering sounds coming from behind the laundry wall",
+      "Twigs, straw, feathers, or nesting material blowing into the dryer drum",
+      "Foul odor or flies in the laundry room from trapped animals",
+      "Exterior dryer vent flap broken, stuck open, or missing entirely",
+      "Dryer overheating due to complete blockage by animal nesting material"
+    ],
+    "diagnostic_steps": [
+      "Inspection of exterior termination hood and assessment of nest depth",
+      "Safe extraction of nesting materials, bird droppings, and debris using retrieval hooks",
+      "Antimicrobial sanitation of contaminated duct sections to kill parasites and bacteria",
+      "Installation of heavy-duty galvanized steel or powder-coated pest guard hood",
+      "Airflow test ensuring pest guard flaps open freely under dryer blower pressure"
+    ],
+    "faqs": [
+      {
+        "question": "Why do birds and rodents choose dryer vents for nesting?",
+        "answer": "Dryer exhaust ducts provide warm, elevated, sheltered cavities that protect birds (especially European starlings and sparrows) and squirrels from predators and cold weather. In spring, uncapped vents are prime nesting targets."
+      },
+      {
+        "question": "Can I put standard window wire mesh over my dryer vent?",
+        "answer": "No! Standard fine wire mesh will quickly catch airborne lint, creating a 100% clog and immediate fire hazard within weeks. Code requires specially designed dryer pest guards with weighted louver flaps or wide-gap bar grates that let lint escape while barring animals."
+      }
+    ]
+  },
+  {
+    "name": "Dryer Exhaust Booster Fan Installation",
+    "slug": "dryer-booster-fan-installation",
+    "short_title": "Dryer Booster Fans",
+    "hero_description": "Installation and servicing of UL-705 DEDPV certified auxiliary exhaust booster fans for long residential and commercial duct runs exceeding 35 feet.",
+    "average_cost": "$350 - $650",
+    "estimated_duration": "1.5 - 2.5 Hours",
+    "symptoms": [
+      "Duct run exceeds 35 feet and cannot be rerouted due to home architectural layout",
+      "Dryer is in the center of the home and exhausts through a lengthy attic run",
+      "Clothes remain damp despite clean ductwork due to inadequate blower velocity",
+      "Lint continually settles and clogs long horizontal pipe sections",
+      "Existing booster fan is noisy, vibrating, or failing to activate automatically"
+    ],
+    "diagnostic_steps": [
+      "Static pressure sensor audit along the entire duct length",
+      "Selection of UL-705 listed Dryer Exhaust Duct Power Ventilator (DEDPV)",
+      "In-line fan mounting on sound-isolating brackets in attic or utility room",
+      "Low-voltage or pressure-sensing automatic switch wiring",
+      "Dynamic airflow CFM validation under active dryer cycling"
+    ],
+    "faqs": [
+      {
+        "question": "How does a dryer booster fan know when to turn on?",
+        "answer": "Modern DEDPV booster fans feature an integrated electronic pressure sensor or current-sensing relay. When the clothes dryer turns on and begins blowing air, the sensor automatically detects positive pressure and activates the booster fan, maintaining a minimum 1,200 FPM air velocity."
+      }
+    ]
+  },
+  {
+    "name": "Commercial Dryer Vent Cleaning",
+    "slug": "commercial-dryer-vent-cleaning",
+    "short_title": "Commercial Vent Cleaning",
+    "hero_description": "High-capacity commercial exhaust cleaning for laundromats, hotels, multi-family apartment complexes, senior living facilities, fitness gyms, and pet grooming salons.",
+    "average_cost": "$295 - $950+",
+    "estimated_duration": "2 - 4 Hours",
+    "symptoms": [
+      "Multiple commercial dryers venting into common manifold collector ducts",
+      "Industrial dryers operating 8-16 hours daily with high lint accumulation",
+      "Facility fire insurance policy requiring documented annual or biannual inspection",
+      "Dryer cycle times increasing, raising commercial gas/electric overhead",
+      "Lint visible falling from commercial exterior louvers onto parking lots or sidewalks"
+    ],
+    "diagnostic_steps": [
+      "Manifold system inspection and commercial fire damper check",
+      "High-output pneumatic air-whip and mechanical rotary brush cleaning",
+      "Commercial negative air scrubber containment (up to 2,500 CFM)",
+      "Before-and-after digital photo report for insurance and fire marshal records",
+      "Scheduled recurring maintenance agreement setup (quarterly/biannual)"
+    ],
+    "faqs": [
+      {
+        "question": "Do you provide official compliance certificates for commercial fire insurance?",
+        "answer": "Yes. Following every commercial cleaning, we provide a signed Certificate of Inspection & Cleaning detailing work performed, airflow CFM measurements, and digital photographic proof for your insurance underwriter, landlord, and local fire marshal."
+      }
+    ]
+  },
+  {
+    "name": "Whole-House Air Duct Cleaning & Sanitation",
+    "slug": "air-duct-cleaning",
+    "short_title": "Air Duct Cleaning",
+    "hero_description": "Comprehensive NADCA-standard supply and return air duct cleaning, evaporator coil inspection, and EPA-registered antimicrobial fogging for clean, allergen-free indoor air.",
+    "average_cost": "$399 - $799",
+    "estimated_duration": "2.5 - 4 Hours",
+    "symptoms": [
+      "Dust puffs blowing from supply registers when HVAC heating/cooling kicks on",
+      "Family members suffering from unexplained allergy flare-ups, sneezing, or asthma",
+      "Recent home renovation or drywall sanding creating heavy particulate buildup",
+      "Musty, moldy odor circulating through the central air system",
+      "Bundle with dryer vent cleaning for complete whole-home fire and air safety"
+    ],
+    "diagnostic_steps": [
+      "Inspection of supply and return duct trunks and blower motor compartment",
+      "High-pressure pneumatic air sweep from register vents toward the main trunk",
+      "Powerful truck-mounted or industrial portable HEPA vacuum containment",
+      "Sanitizing treatment using EPA-registered botanical antimicrobial fog",
+      "Register grille washing and static pressure system balance check"
+    ],
+    "faqs": [
+      {
+        "question": "Can I bundle dryer vent cleaning with air duct cleaning for a discount?",
+        "answer": "Yes! Over 65% of our residential customers bundle their annual dryer vent cleaning with whole-house air duct cleaning, saving up to $100 compared to booking the services separately."
+      }
+    ]
+  }
+]

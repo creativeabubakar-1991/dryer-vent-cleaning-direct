@@ -1,0 +1,1438 @@
+[
+  {
+    "city": "Dallas",
+    "slug": "dallas-tx",
+    "state": "TX",
+    "state_full": "Texas",
+    "county": "Dallas County",
+    "tier": 1,
+    "population": 1300000,
+    "zip_codes": [
+      "75201",
+      "75204",
+      "75206",
+      "75214",
+      "75219",
+      "75225",
+      "75230"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Attic duct runs exceeding 30 feet in 140°F Texas summer heat",
+      "Bird and wasp nests clogging exterior brick wall exhaust vents",
+      "Crushed vinyl transition ducts behind tight laundry closets",
+      "Heavy lint buildup causing 3-cycle drying times and high electric bills"
+    ],
+    "local_technicians": 12,
+    "neighborhoods": [
+      "Uptown",
+      "Lakewood",
+      "Highland Park",
+      "Preston Hollow",
+      "Oak Lawn",
+      "Bishop Arts"
+    ],
+    "landmarks": [
+      "Reunion Tower",
+      "Dallas Arboretum",
+      "Klyde Warren Park",
+      "White Rock Lake"
+    ],
+    "climate_factor": "Intense North Texas summer heat turns attic dryer ducts into ovens; trapped lint reaches auto-ignition temperatures much faster.",
+    "building_code": "City of Dallas Building Inspection Chapter 53 (IRC M1502 compliant)",
+    "nearby_cities": [
+      "fort-worth-tx",
+      "plano-tx",
+      "arlington-tx",
+      "irving-tx",
+      "garland-tx"
+    ],
+    "local_proof_point": "Priority dispatch throughout Dallas County with equipped vans stationed along US-75, I-35E, and I-635."
+  },
+  {
+    "city": "Houston",
+    "slug": "houston-tx",
+    "state": "TX",
+    "state_full": "Texas",
+    "county": "Harris County",
+    "tier": 1,
+    "population": 2300000,
+    "zip_codes": [
+      "77002",
+      "77005",
+      "77007",
+      "77008",
+      "77019",
+      "77024",
+      "77056"
+    ],
+    "response_time": "Same-day (Within 60-90 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "High Gulf Coast humidity turning dry lint into dense, sticky wet paste",
+      "Rooftop vent terminations leaking during intense tropical downpours",
+      "Mud dauber wasps and rodents building nests in exterior flapper vents",
+      "Dryer high-limit thermal fuses blowing due to total backpressure"
+    ],
+    "local_technicians": 16,
+    "neighborhoods": [
+      "The Heights",
+      "Montrose",
+      "River Oaks",
+      "Memorial",
+      "Midtown",
+      "Galleria"
+    ],
+    "landmarks": [
+      "Space Center Houston",
+      "Houston Museum District",
+      "Memorial Park",
+      "Minute Maid Park"
+    ],
+    "climate_factor": "Extreme Gulf humidity combines with hot laundry exhaust, creating sticky lint clogs that standard homeowner brushes cannot budge.",
+    "building_code": "City of Houston Construction Code & Harris County Fire Marshal Standards",
+    "nearby_cities": [
+      "katy-tx",
+      "woodlands-tx",
+      "sugar-land-tx",
+      "pearland-tx",
+      "pasadena-tx"
+    ],
+    "local_proof_point": "Serving Greater Houston with on-call service teams across I-10, I-610 Loop, and Beltway 8."
+  },
+  {
+    "city": "Orlando",
+    "slug": "orlando-fl",
+    "state": "FL",
+    "state_full": "Florida",
+    "county": "Orange County",
+    "tier": 1,
+    "population": 307000,
+    "zip_codes": [
+      "32801",
+      "32803",
+      "32804",
+      "32806",
+      "32819",
+      "32835",
+      "32836"
+    ],
+    "response_time": "Same-day (Within 45-60 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Subtropical humidity causing mold and fungal growth inside clogged ducts",
+      "Long vertical duct runs terminating through tile and shingle roofs",
+      "Lizards, geckos, and tree frogs entering through unshielded vent flaps",
+      "Damp clothes after two 60-minute cycles raising AC humidity load"
+    ],
+    "local_technicians": 10,
+    "neighborhoods": [
+      "Downtown Orlando",
+      "Winter Park",
+      "Doctor Phillips",
+      "Lake Nona",
+      "Baldwin Park",
+      "Thornton Park"
+    ],
+    "landmarks": [
+      "Lake Eola Park",
+      "Universal Orlando",
+      "Amway Center",
+      "Leu Gardens"
+    ],
+    "climate_factor": "Central Florida's 80%+ year-round relative humidity makes clothes dryers work 35% harder when vents are partially blocked.",
+    "building_code": "Florida Building Code (Residential Chapter 15) strict fire prevention standards",
+    "nearby_cities": [
+      "tampa-fl",
+      "kissimmee-fl",
+      "sanford-fl",
+      "altamonte-springs-fl",
+      "clermont-fl"
+    ],
+    "local_proof_point": "Dispatched across Orange & Seminole Counties via I-4 and 408 East-West Expressway."
+  },
+  {
+    "city": "Tampa",
+    "slug": "tampa-fl",
+    "state": "FL",
+    "state_full": "Florida",
+    "county": "Hillsborough County",
+    "tier": 1,
+    "population": 398000,
+    "zip_codes": [
+      "33602",
+      "33606",
+      "33609",
+      "33611",
+      "33626",
+      "33629",
+      "33647"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Salt-air corrosion freezing metal exhaust damper hinge pins shut",
+      "Condo and townhome dryer ducts exceeding 35-foot maximum code length",
+      "Bird nests in exterior side-wall vents during spring nesting season",
+      "Dryer error code Flow Sense or D80 blinking on front-load washers"
+    ],
+    "local_technicians": 9,
+    "neighborhoods": [
+      "South Tampa",
+      "Hyde Park",
+      "Ybor City",
+      "Tampa Palms",
+      "Westchase",
+      "Davis Islands"
+    ],
+    "landmarks": [
+      "Tampa Riverwalk",
+      "Amalie Arena",
+      "Bayshore Boulevard",
+      "Raymond James Stadium"
+    ],
+    "climate_factor": "Coastal moisture and salty sea breezes accelerate damper corrosion, causing outdoor flappers to stick closed.",
+    "building_code": "Florida Building Code Mechanical & Hillsborough County Code Enforcement",
+    "nearby_cities": [
+      "st-petersburg-fl",
+      "clearwater-fl",
+      "brandon-fl",
+      "lakeland-fl",
+      "sarasota-fl"
+    ],
+    "local_proof_point": "Fast mobile dispatch across Tampa Bay via I-275, Selmon Expressway, and Veterans Expressway."
+  },
+  {
+    "city": "Miami",
+    "slug": "miami-fl",
+    "state": "FL",
+    "state_full": "Florida",
+    "county": "Miami-Dade County",
+    "tier": 1,
+    "population": 442000,
+    "zip_codes": [
+      "33131",
+      "33129",
+      "33133",
+      "33137",
+      "33139",
+      "33149",
+      "33156"
+    ],
+    "response_time": "Same-day (Within 45-60 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "High-rise condominium dryer duct booster fans failing silently",
+      "High humidity turning lint into damp, fire-prone insulation blocks",
+      "HOA annual dryer vent certification requirement notice deadlines",
+      "Burning odors circulating through air conditioning return grilles"
+    ],
+    "local_technicians": 14,
+    "neighborhoods": [
+      "Brickell",
+      "Coconut Grove",
+      "Coral Gables",
+      "Wynwood",
+      "South Beach",
+      "Key Biscayne"
+    ],
+    "landmarks": [
+      "Biscayne Bay",
+      "Vizcaya Museum",
+      "Bayside Marketplace",
+      "Calle Ocho"
+    ],
+    "climate_factor": "Miami's tropical climate keeps moisture levels near saturation point, making clean dryer exhaust critical for mold prevention.",
+    "building_code": "Miami-Dade County High-Velocity Hurricane Zone (HVHZ) & Fire Safety Code",
+    "nearby_cities": [
+      "fort-lauderdale-fl",
+      "hialeah-fl",
+      "hollywood-fl",
+      "pembroke-pines-fl",
+      "coral-gables-fl"
+    ],
+    "local_proof_point": "Direct technician dispatch stationed from Biscayne Boulevard and US-1 down through South Beach."
+  },
+  {
+    "city": "Atlanta",
+    "slug": "atlanta-ga",
+    "state": "GA",
+    "state_full": "Georgia",
+    "county": "Fulton County",
+    "tier": 1,
+    "population": 498000,
+    "zip_codes": [
+      "30305",
+      "30306",
+      "30308",
+      "30309",
+      "30318",
+      "30326",
+      "30327"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Two-story and three-story townhomes venting upward through steep roofs",
+      "Squirrels and starlings chewing through plastic exterior hoods",
+      "Long attic duct runs sagging between ceiling joists, creating lint traps",
+      "Laundry rooms smelling of burnt lint and overheating dryer cabinets"
+    ],
+    "local_technicians": 11,
+    "neighborhoods": [
+      "Buckhead",
+      "Midtown",
+      "Inman Park",
+      "Virginia-Highland",
+      "Old Fourth Ward",
+      "Druid Hills"
+    ],
+    "landmarks": [
+      "Piedmont Park",
+      "Ponce City Market",
+      "Mercedes-Benz Stadium",
+      "Fox Theatre"
+    ],
+    "climate_factor": "Summer heat combined with steep multi-story roof pitches makes DIY dryer vent cleaning dangerous and ineffective.",
+    "building_code": "Georgia State Minimum Standard One and Two Family Dwelling Code (IRC M1502)",
+    "nearby_cities": [
+      "marietta-ga",
+      "alpharetta-ga",
+      "roswell-ga",
+      "sandy-springs-ga",
+      "decatur-ga"
+    ],
+    "local_proof_point": "Full coverage across Metro Atlanta inside and outside the I-285 Perimeter."
+  },
+  {
+    "city": "Charlotte",
+    "slug": "charlotte-nc",
+    "state": "NC",
+    "state_full": "North Carolina",
+    "county": "Mecklenburg County",
+    "tier": 1,
+    "population": 874000,
+    "zip_codes": [
+      "28202",
+      "28203",
+      "28207",
+      "28209",
+      "28211",
+      "28226",
+      "28277"
+    ],
+    "response_time": "Same-day (Within 45-60 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Builder-grade foil ducts tearing inside drywall cavities in new developments",
+      "Pine needles and debris jamming exterior louver dampers",
+      "Dryer taking two full cycles for medium towel loads",
+      "Exterior pest guards missing on suburban brick homes"
+    ],
+    "local_technicians": 8,
+    "neighborhoods": [
+      "Uptown",
+      "South End",
+      "Myers Park",
+      "Dilworth",
+      "Ballantyne",
+      "NoDa"
+    ],
+    "landmarks": [
+      "Bank of America Stadium",
+      "NASCAR Hall of Fame",
+      "Freedom Park",
+      "SouthPark Mall"
+    ],
+    "climate_factor": "Humid Piedmont summers cause lint fibers to adhere tenaciously to galvanized sheet metal ducting.",
+    "building_code": "North Carolina Residential Building Code Section M1502",
+    "nearby_cities": [
+      "concord-nc",
+      "huntersville-nc",
+      "gastonia-nc",
+      "matthews-nc",
+      "rock-hill-sc"
+    ],
+    "local_proof_point": "Serving Mecklenburg County with priority dispatch along I-77, I-85, and I-485 outer loop."
+  },
+  {
+    "city": "Phoenix",
+    "slug": "phoenix-az",
+    "state": "AZ",
+    "state_full": "Arizona",
+    "county": "Maricopa County",
+    "tier": 1,
+    "population": 1600000,
+    "zip_codes": [
+      "85004",
+      "85016",
+      "85018",
+      "85020",
+      "85032",
+      "85044",
+      "85048"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Attic temperatures reaching 150°F+ in summer, pre-heating dry lint to flashpoint",
+      "Desert dust and caliche sand mixing with exhaust lint into rock-hard blockages",
+      "Plastic transition hoses turning brittle and cracking behind appliances",
+      "Thermal safety limit switches tripping repeatedly"
+    ],
+    "local_technicians": 12,
+    "neighborhoods": [
+      "Biltmore",
+      "Arcadia",
+      "Desert Ridge",
+      "Ahwatukee",
+      "Downtown Phoenix",
+      "Paradise Valley"
+    ],
+    "landmarks": [
+      "Camelback Mountain",
+      "Desert Botanical Garden",
+      "Footprint Center",
+      "Papago Park"
+    ],
+    "climate_factor": "Extreme Sonoran Desert ambient heat means uncleaned dryer vents operate dangerously close to lint combustion levels.",
+    "building_code": "City of Phoenix Building Construction Code (IRC M1502 & Maricopa County Fire Code)",
+    "nearby_cities": [
+      "scottsdale-az",
+      "mesa-az",
+      "chandler-az",
+      "tempe-az",
+      "gilbert-az",
+      "glendale-az"
+    ],
+    "local_proof_point": "Rapid dispatch across the Valley of the Sun via Loop 101, Loop 202, and I-10."
+  },
+  {
+    "city": "Los Angeles",
+    "slug": "los-angeles-ca",
+    "state": "CA",
+    "state_full": "California",
+    "county": "Los Angeles County",
+    "tier": 1,
+    "population": 3890000,
+    "zip_codes": [
+      "90012",
+      "90024",
+      "90027",
+      "90036",
+      "90046",
+      "90049",
+      "90068"
+    ],
+    "response_time": "Same-day (Within 60-90 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Multi-story apartment and condo shared exhaust riser lint accumulation",
+      "Wildfire ember exposure requiring spark and ember-resistant exterior vent caps",
+      "Historic older homes with non-compliant flex ducting routed through crawlspaces",
+      "Dryers overheating and tripping apartment sub-panel circuit breakers"
+    ],
+    "local_technicians": 18,
+    "neighborhoods": [
+      "Silver Lake",
+      "Brentwood",
+      "West Hollywood",
+      "Studio City",
+      "Los Feliz",
+      "Sherman Oaks"
+    ],
+    "landmarks": [
+      "Griffith Observatory",
+      "Hollywood Sign",
+      "Getty Center",
+      "Santa Monica Pier"
+    ],
+    "climate_factor": "California Title 24 energy efficiency mandates and strict wildfire ember intrusion codes require compliant metal venting.",
+    "building_code": "California Residential Code (CRC Title 24 Section M1502) & LAFD Fire Code",
+    "nearby_cities": [
+      "burbank-ca",
+      "pasadena-ca",
+      "glendale-ca",
+      "santa-monica-ca",
+      "long-beach-ca"
+    ],
+    "local_proof_point": "Stationed across Greater LA with direct dispatch along I-405, US-101, and I-10."
+  },
+  {
+    "city": "Chicago",
+    "slug": "chicago-il",
+    "state": "IL",
+    "state_full": "Illinois",
+    "county": "Cook County",
+    "tier": 1,
+    "population": 2660000,
+    "zip_codes": [
+      "60601",
+      "60611",
+      "60614",
+      "60622",
+      "60647",
+      "60657"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Sub-zero winter frost dams freezing exterior exhaust flappers shut",
+      "Historic brick brownstones and bungalows with long basement duct paths",
+      "Condensation freezing inside long pipe runs during polar vortex freezes",
+      "Dryer running hot and blowing lint into finished basements"
+    ],
+    "local_technicians": 14,
+    "neighborhoods": [
+      "Lincoln Park",
+      "Lakeview",
+      "Wicker Park",
+      "Logan Square",
+      "West Loop",
+      "Gold Coast"
+    ],
+    "landmarks": [
+      "Millennium Park",
+      "Willis Tower",
+      "Navy Pier",
+      "Wrigley Field"
+    ],
+    "climate_factor": "Chicagoland winter freezes turn moist dryer air into ice buildup on exterior vents, causing instant 100% duct blockages.",
+    "building_code": "Chicago Building Code & Cook County Department of Building and Zoning",
+    "nearby_cities": [
+      "evanston-il",
+      "naperville-il",
+      "schaumburg-il",
+      "oak-park-il",
+      "arlington-heights-il"
+    ],
+    "local_proof_point": "Serving City of Chicago and Cook County suburbs via I-90/94 Kennedy and Eisenhower Expressways."
+  },
+  {
+    "city": "Denver",
+    "slug": "denver-co",
+    "state": "CO",
+    "state_full": "Colorado",
+    "county": "Denver County",
+    "tier": 1,
+    "population": 715000,
+    "zip_codes": [
+      "80202",
+      "80206",
+      "80209",
+      "80211",
+      "80218",
+      "80220",
+      "80238"
+    ],
+    "response_time": "Same-day (Within 45-60 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Mile-High elevation air density reducing natural convective dryer exhaust speed",
+      "Exterior exhaust flappers freezing stuck closed during winter snowstorms",
+      "Attic condensation traps creating wet lint paste in cold roof runs",
+      "Dryer cycling off on high-limit thermostat due to backpressure"
+    ],
+    "local_technicians": 8,
+    "neighborhoods": [
+      "LoDo",
+      "Cherry Creek",
+      "Highlands",
+      "Wash Park",
+      "Capitol Hill",
+      "Central Park"
+    ],
+    "landmarks": [
+      "Red Rocks",
+      "Coors Field",
+      "Denver Botanic Gardens",
+      "Union Station"
+    ],
+    "climate_factor": "At 5,280 ft elevation, thinner air reduces blower CFM efficiency, requiring completely unobstructed ducts for safe exhaust.",
+    "building_code": "Denver Building Code & Colorado State Division of Fire Prevention and Control",
+    "nearby_cities": [
+      "aurora-co",
+      "lakewood-co",
+      "centennial-co",
+      "arvada-co",
+      "thornton-co"
+    ],
+    "local_proof_point": "Prompt Front Range dispatch along I-25, I-70, and 6th Avenue corridor."
+  },
+  {
+    "city": "Greeley",
+    "slug": "greeley-co",
+    "state": "CO",
+    "state_full": "Colorado",
+    "county": "Weld County",
+    "tier": 1,
+    "population": 116000,
+    "zip_codes": [
+      "80634",
+      "80631",
+      "80639"
+    ],
+    "response_time": "Same-day (Within 45-60 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Agricultural dust and cottonwood seeds clogging exterior vent screens",
+      "Cold winter temperatures freezing damper flaps closed in unheated garages",
+      "Two-story residential roof vents accumulating heavy winter condensation",
+      "Dryers taking 2-3 cycles to dry heavy winter laundry and denim"
+    ],
+    "local_technicians": 4,
+    "neighborhoods": [
+      "West Greeley",
+      "Bittersweet",
+      "Promontory",
+      "Kelly Farm",
+      "UNC District",
+      "Downtown Greeley"
+    ],
+    "landmarks": [
+      "University of Northern Colorado",
+      "Centerplace of Greeley",
+      "Bittersweet Park",
+      "Family FunPlex"
+    ],
+    "climate_factor": "Front Range winter temperatures dropping below -10°F cause exhaust steam to freeze inside ducts if air velocity is restricted.",
+    "building_code": "City of Greeley Building Inspection Department & Weld County Building Code (IRC M1502)",
+    "nearby_cities": [
+      "evans-co",
+      "windsor-co",
+      "loveland-co",
+      "fort-collins-co",
+      "johnstown-co"
+    ],
+    "local_proof_point": "Local dispatch from 4319 Centerplace Dr with direct technician coverage along US-34 and 10th St."
+  },
+  {
+    "city": "Austin",
+    "slug": "austin-tx",
+    "state": "TX",
+    "state_full": "Texas",
+    "county": "Travis County",
+    "tier": 1,
+    "population": 975000,
+    "zip_codes": [
+      "78701",
+      "78702",
+      "78704",
+      "78745",
+      "78749",
+      "78759"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Cedar pollen and live oak debris obstructing exterior exhaust hood",
+      "Attic duct runs with excessive 90-degree elbows in two-story homes",
+      "Lint accumulation causing high-limit thermostat failure in hot garages",
+      "Transition foil crushed behind modern stackable laundry units"
+    ],
+    "local_technicians": 8,
+    "neighborhoods": [
+      "Downtown",
+      "South Congress",
+      "Zilker",
+      "Mueller",
+      "Tarrytown",
+      "Circle C Ranch"
+    ],
+    "landmarks": [
+      "Texas State Capitol",
+      "Barton Springs Pool",
+      "Lady Bird Lake",
+      "Zilker Metropolitan Park"
+    ],
+    "climate_factor": "Extended 100°F+ Central Texas summer heat creates intense backpressure on clogged attic duct systems.",
+    "building_code": "City of Austin Residential Building Code Chapter 25-12 (IRC M1502 compliant)",
+    "nearby_cities": [
+      "round-rock-tx",
+      "cedar-park-tx",
+      "georgetown-tx",
+      "pflugerville-tx",
+      "san-marcos-tx"
+    ],
+    "local_proof_point": "Direct technician vans roaming MoPac (Loop 1), I-35, and US-183 across Austin and Williamson County."
+  },
+  {
+    "city": "San Antonio",
+    "slug": "san-antonio-tx",
+    "state": "TX",
+    "state_full": "Texas",
+    "county": "Bexar County",
+    "tier": 1,
+    "population": 1450000,
+    "zip_codes": [
+      "78205",
+      "78209",
+      "78216",
+      "78230",
+      "78249",
+      "78258"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Caliche and limestone dust coating exterior dryer louvers",
+      "Long horizontal duct runs through slab foundations accumulating heavy lint sludge",
+      "Wasps and mud daubers sealing vent exit flaps",
+      "Dryer cabinet scorching hot after normal 45-minute cycle"
+    ],
+    "local_technicians": 9,
+    "neighborhoods": [
+      "Stone Oak",
+      "Alamo Heights",
+      "Helotes",
+      "King William",
+      "Medical Center",
+      "Shavano Park"
+    ],
+    "landmarks": [
+      "The Alamo",
+      "San Antonio River Walk",
+      "Mission San Jose",
+      "Tower of the Americas"
+    ],
+    "climate_factor": "South Texas heat and sudden humidity swings cause lint particles to coagulate into thick flammable mats.",
+    "building_code": "City of San Antonio Development Services Code Chapter 10 (IRC M1502)",
+    "nearby_cities": [
+      "new-braunfels-tx",
+      "boerne-tx",
+      "schertz-tx",
+      "cibolo-tx",
+      "universal-city-tx"
+    ],
+    "local_proof_point": "Comprehensive dispatch across Loop 1604, Loop 410, and I-10 corridor throughout Bexar County."
+  },
+  {
+    "city": "San Diego",
+    "slug": "san-diego-ca",
+    "state": "CA",
+    "state_full": "California",
+    "county": "San Diego County",
+    "tier": 1,
+    "population": 1380000,
+    "zip_codes": [
+      "92101",
+      "92104",
+      "92109",
+      "92120",
+      "92128",
+      "92130"
+    ],
+    "response_time": "Same-day (Within 45-60 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Coastal marine layer moisture adhering lint to interior duct walls",
+      "Multi-story condo long vertical booster duct lines clogged",
+      "Exterior salt-air corrosion jamming damper flaps shut",
+      "Dryers taking 2-3 cycles to dry towels and bedding"
+    ],
+    "local_technicians": 10,
+    "neighborhoods": [
+      "La Jolla",
+      "Pacific Beach",
+      "North Park",
+      "Downtown",
+      "Carmel Valley",
+      "Chula Vista"
+    ],
+    "landmarks": [
+      "Balboa Park",
+      "USS Midway Museum",
+      "Torrey Pines State Reserve",
+      "Coronado Bridge"
+    ],
+    "climate_factor": "Coastal air combined with hot exhaust creates damp lint clogs that standard homeowner brushes cannot dislodge.",
+    "building_code": "City of San Diego Building Regulations (California Mechanical Code Title 24)",
+    "nearby_cities": [
+      "chula-vista-ca",
+      "oceanside-ca",
+      "escondido-ca",
+      "carlsbad-ca",
+      "el-cajon-ca"
+    ],
+    "local_proof_point": "Equipped mobile service fleet covering I-5, I-805, and I-15 across San Diego County."
+  },
+  {
+    "city": "San Francisco",
+    "slug": "san-francisco-ca",
+    "state": "CA",
+    "state_full": "California",
+    "county": "San Francisco County",
+    "tier": 1,
+    "population": 810000,
+    "zip_codes": [
+      "94102",
+      "94107",
+      "94110",
+      "94114",
+      "94118",
+      "94123"
+    ],
+    "response_time": "Same-day (Within 45-60 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Historic Victorian tight laundry closets with twisted flexible ducts",
+      "Rooftop penetrations requiring high-reach ladder access and specialized vacuuming",
+      "Heavy marine layer fog making lint stick firmly to sheet metal seams",
+      "Dryer error code D80/D90 triggering shutdown"
+    ],
+    "local_technicians": 8,
+    "neighborhoods": [
+      "Pacific Heights",
+      "Mission District",
+      "Marina",
+      "Noe Valley",
+      "Sunset District",
+      "SoMa"
+    ],
+    "landmarks": [
+      "Golden Gate Bridge",
+      "Alcatraz Island",
+      "Fisherman's Wharf",
+      "Coit Tower"
+    ],
+    "climate_factor": "San Francisco's dense multi-level architecture often routes dryer exhaust 25+ vertical feet to the roof, increasing lint drop-out.",
+    "building_code": "San Francisco Department of Building Inspection (SF Building Code Section 504)",
+    "nearby_cities": [
+      "oakland-ca",
+      "san-mateo-ca",
+      "berkeley-ca",
+      "daly-city-ca",
+      "san-rafael-ca"
+    ],
+    "local_proof_point": "Specialized compact service vans equipped for San Francisco hill parking and rooftop access."
+  },
+  {
+    "city": "San Jose",
+    "slug": "san-jose-ca",
+    "state": "CA",
+    "state_full": "California",
+    "county": "Santa Clara County",
+    "tier": 1,
+    "population": 980000,
+    "zip_codes": [
+      "95110",
+      "95112",
+      "95120",
+      "95125",
+      "95129",
+      "95134"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "High-tech home smart dryers locking out due to backpressure warnings",
+      "Attic duct connections loosened by thermal expansion",
+      "Bird and squirrel nesting behind stucco wall caps",
+      "Long horizontal duct runs exceeding manufacturer 35ft specifications"
+    ],
+    "local_technicians": 7,
+    "neighborhoods": [
+      "Willow Glen",
+      "Almaden Valley",
+      "Rose Garden",
+      "Downtown San Jose",
+      "Silver Creek",
+      "Santana Row"
+    ],
+    "landmarks": [
+      "Winchester Mystery House",
+      "Tech Interactive",
+      "Santana Row",
+      "Plaza de Cesar Chavez"
+    ],
+    "climate_factor": "Silicon Valley dry heat bakes lint into a combustible tinderbox inside uninsulated attic duct lines.",
+    "building_code": "City of San Jose Building Division (California Mechanical Code Section 504.4)",
+    "nearby_cities": [
+      "sunnyvale-ca",
+      "santa-clara-ca",
+      "mountain-view-ca",
+      "milpitas-ca",
+      "campbell-ca"
+    ],
+    "local_proof_point": "Fast dispatch coverage across I-880, I-280, and US-101 throughout Santa Clara County."
+  },
+  {
+    "city": "Seattle",
+    "slug": "seattle-wa",
+    "state": "WA",
+    "state_full": "Washington",
+    "county": "King County",
+    "tier": 1,
+    "population": 750000,
+    "zip_codes": [
+      "98101",
+      "98103",
+      "98105",
+      "98109",
+      "98115",
+      "98122"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Pacific Northwest persistent dampness turning lint into thick, damp sludge",
+      "Two-story roof vent terminations suffering moss and damp lint buildup",
+      "Rodent intrusion into crawlspace flexible ducts",
+      "Duct condensation dripping through ceiling drywall"
+    ],
+    "local_technicians": 8,
+    "neighborhoods": [
+      "Capitol Hill",
+      "Ballard",
+      "Queen Anne",
+      "Fremont",
+      "West Seattle",
+      "Green Lake"
+    ],
+    "landmarks": [
+      "Space Needle",
+      "Pike Place Market",
+      "Chihuly Garden and Glass",
+      "Museum of Pop Culture"
+    ],
+    "climate_factor": "Persistent PNW moisture causes lint to stick and harden along duct ridges, severely reducing exhaust CFM.",
+    "building_code": "Seattle Department of Construction & Inspections (Seattle Mechanical Code Chapter 5)",
+    "nearby_cities": [
+      "bellevue-wa",
+      "redmond-wa",
+      "renton-wa",
+      "kirkland-wa",
+      "edmonds-wa"
+    ],
+    "local_proof_point": "CDET technicians dispatching daily along I-5, I-90, and SR-520 throughout the Puget Sound."
+  },
+  {
+    "city": "Portland",
+    "slug": "portland-or",
+    "state": "OR",
+    "state_full": "Oregon",
+    "county": "Multnomah County",
+    "tier": 1,
+    "population": 650000,
+    "zip_codes": [
+      "97201",
+      "97205",
+      "97209",
+      "97211",
+      "97214",
+      "97219"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Moist PNW climate causing moldy lint buildup inside basement vents",
+      "Stuck exterior gravity flappers allowing cold drafts and rodents inside",
+      "Flexible foil transitions sagging and collecting wet lint pockets",
+      "Overheated laundry rooms and extended drying times"
+    ],
+    "local_technicians": 6,
+    "neighborhoods": [
+      "Pearl District",
+      "Hawthorne",
+      "Alberta Arts",
+      "Nob Hill",
+      "Sellwood-Moreland",
+      "St. Johns"
+    ],
+    "landmarks": [
+      "Powell's City of Books",
+      "Portland Japanese Garden",
+      "Washington Park",
+      "Pittock Mansion"
+    ],
+    "climate_factor": "High precipitation levels cause uninsulated crawlspace duct lines to act as moisture traps for lint.",
+    "building_code": "City of Portland Bureau of Development Services (Oregon Mechanical Specialty Code)",
+    "nearby_cities": [
+      "beaverton-or",
+      "hillsboro-or",
+      "gresham-or",
+      "tigard-or",
+      "lake-oswego-or"
+    ],
+    "local_proof_point": "Direct service vans covering I-5, I-84, and I-205 throughout the Portland metro."
+  },
+  {
+    "city": "Las Vegas",
+    "slug": "las-vegas-nv",
+    "state": "NV",
+    "state_full": "Nevada",
+    "county": "Clark County",
+    "tier": 1,
+    "population": 660000,
+    "zip_codes": [
+      "89101",
+      "89109",
+      "89117",
+      "89123",
+      "89134",
+      "89148"
+    ],
+    "response_time": "Same-day (Within 45-60 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Attic duct temperatures topping 150°F during scorching Mojave desert summers",
+      "Fine desert dust mixing with lint into combustible felt-like cakes",
+      "Rooftop tile jacks clogged by pigeon nesting and windblown sand",
+      "Emergency thermal fuse blowouts shutting down laundry operations"
+    ],
+    "local_technicians": 9,
+    "neighborhoods": [
+      "Summerlin",
+      "Henderson",
+      "Spring Valley",
+      "Green Valley",
+      "Centennial Hills",
+      "Downtown"
+    ],
+    "landmarks": [
+      "The Las Vegas Strip",
+      "Fremont Street Experience",
+      "Red Rock Canyon",
+      "Bellagio Fountains"
+    ],
+    "climate_factor": "Extreme 115°F desert ambient heat makes lint fires ignite at dramatically lower appliance run temperatures.",
+    "building_code": "Clark County Building Department Regulations (Uniform Mechanical Code Chapter 5)",
+    "nearby_cities": [
+      "henderson-nv",
+      "north-las-vegas-nv",
+      "boulder-city-nv",
+      "enterprise-nv",
+      "spring-valley-nv"
+    ],
+    "local_proof_point": "Dedicated service units active across I-15, US-95, and 215 Beltway 7 days a week."
+  },
+  {
+    "city": "Nashville",
+    "slug": "nashville-tn",
+    "state": "TN",
+    "state_full": "Tennessee",
+    "county": "Davidson County",
+    "tier": 1,
+    "population": 715000,
+    "zip_codes": [
+      "37201",
+      "37203",
+      "37206",
+      "37209",
+      "37212",
+      "37215"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Crawlspace duct runs coming disconnected from floor joists",
+      "Heavy Southern humidity creating sticky lint buildup in crawlspaces",
+      "Bird and starling nests filling exterior wall exhaust caps",
+      "High backpressure causing dryer burning odors"
+    ],
+    "local_technicians": 7,
+    "neighborhoods": [
+      "East Nashville",
+      "The Gulch",
+      "Green Hills",
+      "Germantown",
+      "12 South",
+      "Belle Meade"
+    ],
+    "landmarks": [
+      "Grand Ole Opry",
+      "Ryman Auditorium",
+      "Parthenon at Centennial Park",
+      "Broadway Historic District"
+    ],
+    "climate_factor": "Warm humid summers combined with freezing winter snaps create frequent condensation condensation inside vents.",
+    "building_code": "Metro Nashville Department of Codes and Building Safety (IRC M1502)",
+    "nearby_cities": [
+      "franklin-tn",
+      "brentwood-tn",
+      "murfreesboro-tn",
+      "hendersonville-tn",
+      "mount-juliet-tn"
+    ],
+    "local_proof_point": "Mobile technicians stationed along I-65, I-24, and I-40 throughout Davidson and Williamson Counties."
+  },
+  {
+    "city": "Indianapolis",
+    "slug": "indianapolis-in",
+    "state": "IN",
+    "state_full": "Indiana",
+    "county": "Marion County",
+    "tier": 1,
+    "population": 880000,
+    "zip_codes": [
+      "46201",
+      "46204",
+      "46220",
+      "46240",
+      "46250",
+      "46268"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Freezing winter temperatures freezing exterior flapper dampers closed",
+      "Basement horizontal duct runs exceeding 35ft without booster fans",
+      "Mice and squirrel intrusion into unshielded plastic wall vents",
+      "Two cycles required to dry everyday cotton loads"
+    ],
+    "local_technicians": 7,
+    "neighborhoods": [
+      "Broad Ripple",
+      "Downtown Indy",
+      "Fountain Square",
+      "Carmel",
+      "Fishers",
+      "Castleton"
+    ],
+    "landmarks": [
+      "Indianapolis Motor Speedway",
+      "Monument Circle",
+      "White River State Park",
+      "Children's Museum"
+    ],
+    "climate_factor": "Midwestern sub-zero freezes cause damp exhaust steam to freeze inside ducts, causing sudden total blockages.",
+    "building_code": "City of Indianapolis Department of Business & Neighborhood Services (Indiana Residential Code)",
+    "nearby_cities": [
+      "carmel-in",
+      "fishers-in",
+      "noblesville-in",
+      "greenwood-in",
+      "westfield-in"
+    ],
+    "local_proof_point": "Full Marion and Hamilton County coverage via I-465 loop, I-65, and I-69."
+  },
+  {
+    "city": "Columbus",
+    "slug": "columbus-oh",
+    "state": "OH",
+    "state_full": "Ohio",
+    "county": "Franklin County",
+    "tier": 1,
+    "population": 905000,
+    "zip_codes": [
+      "43201",
+      "43206",
+      "43212",
+      "43215",
+      "43220",
+      "43235"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Rigid metal ducts with interior screws that catch and snarl lint",
+      "Cold winter condensation pooling in uninsulated basement lines",
+      "Bird nests in exterior side-wall flappers during spring nesting",
+      "Dryer error code D80/D90 triggering emergency shutdown"
+    ],
+    "local_technicians": 7,
+    "neighborhoods": [
+      "Short North",
+      "German Village",
+      "Clintonville",
+      "Grandview Heights",
+      "Dublin",
+      "Upper Arlington"
+    ],
+    "landmarks": [
+      "Ohio Statehouse",
+      "Franklin Park Conservatory",
+      "Ohio Stadium",
+      "COSI Science Center"
+    ],
+    "climate_factor": "Ohio seasonal humidity shifts create alternating wet-and-dry lint layering that clogs rotary airflow.",
+    "building_code": "City of Columbus Department of Building & Zoning Services (Ohio Residential Code Section 1502)",
+    "nearby_cities": [
+      "dublin-oh",
+      "westerville-oh",
+      "reynoldsburg-oh",
+      "grove-city-oh",
+      "upper-arlington-oh"
+    ],
+    "local_proof_point": "Rapid dispatch along I-270 Outerbelt, I-70, and I-71 across Greater Columbus."
+  },
+  {
+    "city": "Philadelphia",
+    "slug": "philadelphia-pa",
+    "state": "PA",
+    "state_full": "Pennsylvania",
+    "county": "Philadelphia County",
+    "tier": 1,
+    "population": 1570000,
+    "zip_codes": [
+      "19102",
+      "19103",
+      "19107",
+      "19123",
+      "19130",
+      "19147"
+    ],
+    "response_time": "Same-day (Within 45-60 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Historic rowhome tight vertical chimneys and long concealed duct runs",
+      "Old vinyl and spiral wire transition ducts posing immediate fire hazards",
+      "Brick exterior mortar crumbling around exhaust hood collars",
+      "Scorching laundry room temperatures and burning odor"
+    ],
+    "local_technicians": 11,
+    "neighborhoods": [
+      "Center City",
+      "Rittenhouse Square",
+      "Fishtown",
+      "Old City",
+      "Manayunk",
+      "Queen Village"
+    ],
+    "landmarks": [
+      "Liberty Bell",
+      "Independence Hall",
+      "Philadelphia Museum of Art",
+      "Reading Terminal Market"
+    ],
+    "climate_factor": "Dense historic rowhomes with unmaintained vertical runs cause severe lint backup and high fire danger.",
+    "building_code": "City of Philadelphia Department of Licenses and Inspections (IRC M1502 compliant)",
+    "nearby_cities": [
+      "cherry-hill-nj",
+      "bensalem-pa",
+      "norristown-pa",
+      "conshohocken-pa",
+      "king-of-prussia-pa"
+    ],
+    "local_proof_point": "Dedicated city technicians equipped with HEPA negative-air equipment for historic rowhome layouts."
+  },
+  {
+    "city": "Boston",
+    "slug": "boston-ma",
+    "state": "MA",
+    "state_full": "Massachusetts",
+    "county": "Suffolk County",
+    "tier": 1,
+    "population": 675000,
+    "zip_codes": [
+      "02108",
+      "02114",
+      "02116",
+      "02127",
+      "02130",
+      "02138"
+    ],
+    "response_time": "Same-day (Within 45-60 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Multi-story brownstone vertical ducts with multiple 90-degree elbows",
+      "New England winter ice freezing exterior louver flaps",
+      "Stuck exterior dampers causing toxic carbon monoxide backdrafts in gas dryers",
+      "Heavy lint buildup causing drying cycles to exceed 60 minutes"
+    ],
+    "local_technicians": 8,
+    "neighborhoods": [
+      "Back Bay",
+      "Beacon Hill",
+      "South End",
+      "South Boston",
+      "Cambridge",
+      "Charlestown"
+    ],
+    "landmarks": [
+      "Boston Common",
+      "Faneuil Hall",
+      "Fenway Park",
+      "Freedom Trail"
+    ],
+    "climate_factor": "Northeastern blizzards and below-freezing temperatures freeze exterior vents solid if airflow is slow.",
+    "building_code": "City of Boston Inspectional Services Department (780 CMR Massachusetts State Building Code)",
+    "nearby_cities": [
+      "cambridge-ma",
+      "somerville-ma",
+      "brookline-ma",
+      "quincy-ma",
+      "newton-ma"
+    ],
+    "local_proof_point": "Full Greater Boston and MetroWest dispatch via I-90 Mass Pike, I-93, and Route 128."
+  },
+  {
+    "city": "New York",
+    "slug": "new-york-ny",
+    "state": "NY",
+    "state_full": "New York",
+    "county": "New York County",
+    "tier": 1,
+    "population": 8300000,
+    "zip_codes": [
+      "10001",
+      "10011",
+      "10021",
+      "10025",
+      "11201",
+      "11215"
+    ],
+    "response_time": "Same-day (Within 45-60 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Apartment booster fans jammed by lint ropes and threads",
+      "Pre-war building shared vertical riser shafts heavily clogged",
+      "Flexible duct transitions banned under NYC mechanical code",
+      "Dryers overheating and tripping building fire alarm sensors"
+    ],
+    "local_technicians": 18,
+    "neighborhoods": [
+      "Manhattan",
+      "Brooklyn Heights",
+      "Park Slope",
+      "Astoria",
+      "Upper East Side",
+      "Williamsburg"
+    ],
+    "landmarks": [
+      "Empire State Building",
+      "Central Park",
+      "Times Square",
+      "One World Observatory"
+    ],
+    "climate_factor": "NYC high-density vertical venting creates massive backpressure when lint accumulates across multiple floors.",
+    "building_code": "NYC Department of Buildings Code Section MC 504 & FDNY Fire Prevention Standards",
+    "nearby_cities": [
+      "jersey-city-nj",
+      "hoboken-nj",
+      "yonkers-ny",
+      "white-plains-ny",
+      "new-rochelle-ny"
+    ],
+    "local_proof_point": "Specialized high-capacity negative air vacuum equipment for 5-borough co-ops, condos, and townhomes."
+  },
+  {
+    "city": "Jacksonville",
+    "slug": "jacksonville-fl",
+    "state": "FL",
+    "state_full": "Florida",
+    "county": "Duval County",
+    "tier": 1,
+    "population": 950000,
+    "zip_codes": [
+      "32202",
+      "32204",
+      "32207",
+      "32224",
+      "32225",
+      "32256"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Florida coastal humidity turning dryer lint into sticky damp sludge",
+      "Rooftop goose-neck vent caps clogged with pine needles and lint",
+      "Lizards, frogs, and wasps nesting inside damper housings",
+      "Dryers taking 2-3 cycles to dry beach towels and heavy laundry"
+    ],
+    "local_technicians": 7,
+    "neighborhoods": [
+      "San Marco",
+      "Riverside",
+      "Avondale",
+      "Southside",
+      "Mandarin",
+      "Jacksonville Beach"
+    ],
+    "landmarks": [
+      "St. Johns River",
+      "TIAA Bank Field",
+      "Cummer Museum",
+      "Kathryn Abbey Hanna Park"
+    ],
+    "climate_factor": "Subtropical humidity causes wet lint to cement itself inside duct elbows, cutting airflow by up to 80%.",
+    "building_code": "City of Jacksonville Building Inspection Division (Florida Building Code - Mechanical Section 504)",
+    "nearby_cities": [
+      "jacksonville-beach-fl",
+      "orange-park-fl",
+      "st-augustine-fl",
+      "ponte-vedra-fl",
+      "atlantic-beach-fl"
+    ],
+    "local_proof_point": "Active mobile teams stationed across I-295 beltway, I-95, and Butler Blvd throughout Duval & St. Johns."
+  },
+  {
+    "city": "Detroit",
+    "slug": "detroit-mi",
+    "state": "MI",
+    "state_full": "Michigan",
+    "county": "Wayne County",
+    "tier": 1,
+    "population": 630000,
+    "zip_codes": [
+      "48201",
+      "48207",
+      "48221",
+      "48226",
+      "48301",
+      "48067"
+    ],
+    "response_time": "Same-day (Within 45-75 Mins)",
+    "cleaning_price": "$99",
+    "price_range": "$99 - $149",
+    "common_faults": [
+      "Harsh Michigan winter ice freezing exterior dampers shut",
+      "Basement duct runs with improper slopes trapping condensation",
+      "Dryer high-limit thermal switch repeatedly tripping",
+      "Rodent intrusion into older crawlspace ducting"
+    ],
+    "local_technicians": 8,
+    "neighborhoods": [
+      "Downtown",
+      "Midtown",
+      "Corktown",
+      "Palmer Woods",
+      "Royal Oak",
+      "Birmingham"
+    ],
+    "landmarks": [
+      "Detroit Institute of Arts",
+      "Campus Martius Park",
+      "Fox Theatre",
+      "Belle Isle"
+    ],
+    "climate_factor": "Sub-zero lake-effect freezes lock exterior vent hoods shut when hot moist exhaust condenses on icy metal.",
+    "building_code": "City of Detroit Buildings, Safety Engineering & Environmental Department (Michigan Residential Code)",
+    "nearby_cities": [
+      "troy-mi",
+      "royal-oak-mi",
+      "dearborn-mi",
+      "warren-mi",
+      "livonia-mi"
+    ],
+    "local_proof_point": "Rapid dispatch across I-75, I-94, and I-696 throughout Metro Detroit and Oakland County."
+  }
+]

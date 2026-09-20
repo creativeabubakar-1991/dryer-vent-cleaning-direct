@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Dryer Takes Two Cycles to Dry",
+    "slug": "dryer-takes-two-cycles-to-dry",
+    "meta_description": "Clothes taking 2 to 3 cycles to dry? Learn why clogged dryer vents cause long drying times and how professional lint cleaning restores fast drying.",
+    "symptom": "Extended drying times exceeding 50 minutes per load",
+    "primary_cause": "Restricted exhaust airflow causing high backpressure and thermal tripping",
+    "fire_risk": "Moderate to High",
+    "recommended_action": "Professional rotary brush cleaning and airflow CFM test"
+  },
+  {
+    "title": "Dryer Hot to Touch & Burning Smell",
+    "slug": "dryer-hot-to-touch-burning-smell",
+    "meta_description": "Dryer burning smell or excessively hot top? Emergency warning signs of dangerous lint buildup. Call for immediate same-day safety dispatch.",
+    "symptom": "Scorching dryer cabinet exterior and acrid burnt lint odor",
+    "primary_cause": "Trapped lint in proximity to the heating element or gas burner chamber",
+    "fire_risk": "Critical / Immediate Fire Hazard",
+    "recommended_action": "Turn off dryer immediately and schedule emergency vent clearout"
+  },
+  {
+    "title": "Dryer Error Code D80, D90 or Flow Sense Warning",
+    "slug": "dryer-error-code-d80-d90",
+    "meta_description": "LG or Samsung dryer showing D80, D90, or Flow Sense bar? 80% to 90% duct blockage detected. We clear clogs and reset your dryer today.",
+    "symptom": "Digital display error code D80, D90, or Flow Sense indicator blinking",
+    "primary_cause": "Smart pressure differential sensor detecting severe duct obstruction",
+    "fire_risk": "High",
+    "recommended_action": "Complete duct line rotary scrub and exterior cap inspection"
+  },
+  {
+    "title": "Water Dripping From Dryer Vent or Wall Condensation",
+    "slug": "water-dripping-from-dryer-vent",
+    "meta_description": "Water dripping from dryer duct or wet laundry room walls? Discover how clogged vents cause condensation puddles and how to fix it.",
+    "symptom": "Puddling water beneath the transition duct or sweaty laundry walls",
+    "primary_cause": "Moisture-laden air stalling in the vent, condensing into water and lint sludge",
+    "fire_risk": "Moderate (Mold & Fire Hazard)",
+    "recommended_action": "Duct cleanout and insulation verification in unconditioned attics"
+  },
+  {
+    "title": "Exterior Dryer Vent Flaps Not Opening Outside",
+    "slug": "dryer-flaps-not-opening-outside",
+    "meta_description": "Outside dryer vent flap stuck closed or blowing lint onto the ground? Clear lint jams and animal guards with certified technician service.",
+    "symptom": "Outdoor damper louvers stay flat when dryer is actively running",
+    "primary_cause": "Lint cake jammed in louver hinge or animal nesting behind the hood",
+    "fire_risk": "High",
+    "recommended_action": "Exterior hood cleaning and heavy-gauge pest guard installation"
+  }
+]

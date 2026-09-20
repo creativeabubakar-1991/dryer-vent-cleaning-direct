@@ -1,0 +1,198 @@
+[
+  {
+    "brand": "Tesla",
+    "slug": "tesla-charger-repair",
+    "popular_models": [
+      "Tesla Universal Wall Connector",
+      "Tesla Wall Connector Gen 3",
+      "Tesla Wall Connector Gen 2",
+      "Tesla Gen 2 Mobile Connector (120V/240V)",
+      "Tesla Corded Mobile Connector (NEMA 14-50)"
+    ],
+    "connector_type": "NACS (North American Charging Standard) / Magic Dock J1772",
+    "common_error_codes": [
+      {
+        "code": "1 Red Blink",
+        "meaning": "Ground fault circuit interruption (current leakage to ground detected).",
+        "fix": "Inspect output cable, vehicle inlet pins, and verify ground conductor integrity (<25 ohms)."
+      },
+      {
+        "code": "2 Red Blinks",
+        "meaning": "Ground Path Loss (Wall Connector is not detecting a safe ground bond).",
+        "fix": "Test supply ground connection in wire box, check for loose neutral-ground bonding."
+      },
+      {
+        "code": "3 Red Blinks",
+        "meaning": "High internal temperature detected at terminal block or charge handle.",
+        "fix": "Re-torque terminal block lugs to factory specification (50 in-lbs) and inspect for resistive heating."
+      },
+      {
+        "code": "4 Red Blinks",
+        "meaning": "Internet or Power Sharing Cluster communication interruption.",
+        "fix": "Reset Wi-Fi commission portal or clear conflicting load-balancing cluster pairing."
+      },
+      {
+        "code": "5 Red Blinks",
+        "meaning": "Power-sharing communication handshake timeout or internal relay fault.",
+        "fix": "Cycle breaker, audit CAN-bus communication wire, or replace power control PCB."
+      },
+      {
+        "code": "6 Red Blinks",
+        "meaning": "Hardware over-voltage or under-voltage detected from incoming utility feed.",
+        "fix": "Measure L1-L2 line voltage; contact utility if phase drops below 200V or exceeds 255V."
+      }
+    ],
+    "warranty_status_notes": "Tesla offers a 48-month residential warranty for Gen 3 Wall Connectors installed by licensed contractors. Proof of certified installation required.",
+    "repairability_rating": "High (Modular terminal wire box and replaceable faceplates; circuit board repairable if out of warranty).",
+    "description": "As the most common EV charger in Northern Colorado, Tesla Wall Connectors deliver up to 48A (11.5 kW). Our technicians stock genuine Tesla parts, replacement handles, and high-temperature terminal lugs."
+  },
+  {
+    "brand": "ChargePoint",
+    "slug": "chargepoint-charger-repair",
+    "popular_models": [
+      "ChargePoint Home Flex (Hardwired 50A/CPH50)",
+      "ChargePoint Home Flex (NEMA 14-50 Plug-In)",
+      "ChargePoint Home Flex (NEMA 6-50 Plug-In)",
+      "ChargePoint CPF50 Commercial Fleet Station"
+    ],
+    "connector_type": "J1772 / NACS Replacement Cable Option",
+    "common_error_codes": [
+      {
+        "code": "Solid Red Ring",
+        "meaning": "Critical internal fault or CCID ground-fault test failure.",
+        "fix": "Full power cycle; if red persists, test ground impedance and internal contactor coil."
+      },
+      {
+        "code": "Pulsing Amber Light",
+        "meaning": "Wi-Fi connection lost or cloud communication timeout.",
+        "fix": "Reboot router, re-pair via ChargePoint Bluetooth app setup, or reconfigure 2.4GHz band."
+      },
+      {
+        "code": "Rapid White Flashing",
+        "meaning": "Firmware update stuck in bootloader loop.",
+        "fix": "Hard reboot via breaker or factory re-flash using ChargePoint technician tools."
+      }
+    ],
+    "warranty_status_notes": "ChargePoint Home Flex includes a 3-year limited parts warranty backed by 24/7 customer support.",
+    "repairability_rating": "Moderate to High (Modular cord assembly is user-replaceable; terminal blocks require precise torque).",
+    "description": "ChargePoint Home Flex is a favorite across Northern Colorado for its adjustable 16A-50A charging rates. We diagnose WiFi disconnects, cable clip breakage, and terminal block overheating."
+  },
+  {
+    "brand": "JuiceBox",
+    "slug": "juicebox-charger-repair",
+    "popular_models": [
+      "Enel X JuiceBox 32 (Smart Level 2)",
+      "Enel X JuiceBox 40 (Smart Level 2)",
+      "Enel X JuiceBox 48 (Hardwired Station)",
+      "Legacy eMotorWerks JuiceBox Pro"
+    ],
+    "connector_type": "J1772 (25-foot heavy-duty cable)",
+    "common_error_codes": [
+      {
+        "code": "Flashing Red LED (Code 2)",
+        "meaning": "Ground fault detected on output charging cable.",
+        "fix": "Check for moisture in J1772 connector pins or damaged cable jacket."
+      },
+      {
+        "code": "Flashing Red LED (Code 4)",
+        "meaning": "High internal unit temperature exceeded safe threshold.",
+        "fix": "Check ambient garage temperature, inspect terminal wire connections, clean intake vents."
+      },
+      {
+        "code": "No WiFi Connection / Purple LED",
+        "meaning": "JuicePass app cloud migration disconnection.",
+        "fix": "Reset device network credentials or reconfigure to local stand-alone mode."
+      }
+    ],
+    "warranty_status_notes": "Following the Enel X North America software transition, many JuiceBox units require localized offline configuration or custom board diagnostics.",
+    "repairability_rating": "High (Internal relay contactors and terminal blocks are discrete and replaceable).",
+    "description": "Many Weld County homeowners have JuiceBox units installed through utility programs. Following software transitions, we specialize in offline conversion, relay replacements, and cable repairs."
+  },
+  {
+    "brand": "Wallbox",
+    "slug": "wallbox-charger-repair",
+    "popular_models": [
+      "Wallbox Pulsar Plus 40A",
+      "Wallbox Pulsar Plus 48A",
+      "Wallbox Commander 2",
+      "Wallbox Quasar Bi-Directional (V2G)"
+    ],
+    "connector_type": "J1772 / Type 1 with integrated holster",
+    "common_error_codes": [
+      {
+        "code": "Solid Red Halo Light",
+        "meaning": "Internal error, vehicle communication error, or ground fault.",
+        "fix": "Perform factory safety self-test check via myWallbox Bluetooth app."
+      },
+      {
+        "code": "Blinking Red Halo Light",
+        "meaning": "Earth ground presence missing or high impedance on protective conductor.",
+        "fix": "Verify main panel ground bonding and test auxiliary earthing plate."
+      },
+      {
+        "code": "Yellow Halo Light",
+        "meaning": "Charger is locked or waiting for authorization.",
+        "fix": "Authenticate through myWallbox app or disable auto-lock feature."
+      }
+    ],
+    "warranty_status_notes": "3-year standard manufacturer warranty covering parts and factory defects.",
+    "repairability_rating": "Moderate (Ultra-compact chassis requires specialized micro-screwdriver tooling).",
+    "description": "Wallbox Pulsar Plus is known for its compact footprint and Bluetooth/WiFi connectivity. We handle halo light diagnostic troubleshooting, smart schedule resets, and power boost meter calibrations."
+  },
+  {
+    "brand": "Emporia",
+    "slug": "emporia-charger-repair",
+    "popular_models": [
+      "Emporia 48 Amp Level 2 EV Charger (Hardwired)",
+      "Emporia 40 Amp Level 2 EV Charger (NEMA 14-50)",
+      "Emporia Vue Home Energy Management Bundle"
+    ],
+    "connector_type": "J1772 / NACS Version (24-foot cable)",
+    "common_error_codes": [
+      {
+        "code": "Flashing Red LED",
+        "meaning": "GFCI trip or ground missing.",
+        "fix": "Test ground circuit with loop impedance meter; inspect for line noise."
+      },
+      {
+        "code": "Amber Breaker Alarm",
+        "meaning": "Emporia Vue automated load shedding threshold triggered.",
+        "fix": "Re-calibrate Vue current transformers (CTs) inside electrical panel."
+      }
+    ],
+    "warranty_status_notes": "3-year warranty from Emporia (Colorado-based company headquartered in Littleton, CO).",
+    "repairability_rating": "High (Local Colorado manufacturer with excellent replacement parts availability).",
+    "description": "Proudly designed in Colorado, Emporia chargers pair with energy monitoring systems. We are Front Range experts in pairing Emporia chargers with Vue smart panels and fixing communication dropouts."
+  },
+  {
+    "brand": "Grizzl-E",
+    "slug": "grizzl-e-charger-repair",
+    "popular_models": [
+      "Grizzl-E Classic (Heavy Duty Aluminum Enclosure)",
+      "Grizzl-E Smart (Wi-Fi Enabled)",
+      "Grizzl-E Duo (Dual Charging Cable)",
+      "Grizzl-E Ultimate Commercial 48A"
+    ],
+    "connector_type": "J1772 (Premium cold-weather flexible cable rated to -22°F)",
+    "common_error_codes": [
+      {
+        "code": "Red Flashing LED (Count 1)",
+        "meaning": "Ground fault detected or GFCI self-test failure.",
+        "fix": "Inspect plug contacts for water condensation or debris."
+      },
+      {
+        "code": "Red Flashing LED (Count 2)",
+        "meaning": "Relay contact stuck or welded in open/closed position.",
+        "fix": "Replace heavy-duty internal mechanical contactor assembly."
+      },
+      {
+        "code": "Red Flashing LED (Count 4)",
+        "meaning": "High internal temperature detected on input terminals.",
+        "fix": "Tighten internal DIP switch terminals and verify copper conductor gauge."
+      }
+    ],
+    "warranty_status_notes": "3-year replacement warranty; built in North America with robust NEMA 4 cast aluminum housing.",
+    "repairability_rating": "Very High (Industrial mechanical contactors and heavy-duty serviceable chassis).",
+    "description": "Grizzl-E is widely favored in Colorado for its rugged cast-aluminum, cold-weather proof enclosure. We replace worn J1772 cables, adjust internal amperage DIP switches, and service heavy-duty contactors."
+  }
+]
