@@ -28,17 +28,17 @@ export default function LearnIndexPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <div className="bg-[#070c18] text-gray-200 py-12 px-4 text-left">
+      <div className="bg-slate-50 text-slate-800 py-12 px-4 text-left">
         <div className="max-w-7xl mx-auto space-y-10">
           <div className="space-y-3">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/25 text-orange-400 text-xs font-semibold">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-100 border border-orange-200 text-orange-700 text-xs font-semibold">
               <BookOpen className="w-3.5 h-3.5" />
               <span>Certified Knowledge Hub</span>
             </div>
-            <h1 className="text-3xl sm:text-5xl font-black text-white leading-tight">
+            <h1 className="text-3xl sm:text-5xl font-black text-slate-900 leading-tight">
               Dryer Vent Safety &amp; Fire Prevention Guides
             </h1>
-            <p className="text-sm sm:text-base text-gray-400 max-w-2xl leading-relaxed">
+            <p className="text-sm sm:text-base text-slate-600 max-w-2xl leading-relaxed">
               Technical troubleshooting walkthroughs, USFA / FEMA fire data, and International Residential Code (IRC M1502) guidance from certified dryer exhaust technicians.
             </p>
           </div>
@@ -47,37 +47,35 @@ export default function LearnIndexPage() {
             {guides.map((guide) => (
               <article
                 key={guide.slug}
-                className="bg-[#0c1424] rounded-2xl p-6 border border-white/10 hover:border-orange-500/50 hover:shadow-xl transition flex flex-col justify-between"
+                className="bg-white rounded-2xl p-6 border border-slate-200 hover:border-orange-400 hover:shadow-xl transition flex flex-col justify-between shadow-xs"
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between text-xs">
-                    <span className="px-2.5 py-0.5 rounded-full bg-orange-500/10 text-orange-400 font-bold border border-orange-500/20 text-[10px] uppercase">
+                    <span className="px-2.5 py-0.5 rounded-full bg-orange-50 text-orange-700 font-bold border border-orange-200 text-[10px] uppercase">
                       {guide.category}
                     </span>
-                    <span className="text-gray-500 text-[11px] flex items-center gap-1">
+                    <span className="text-slate-500 text-[11px] flex items-center gap-1">
                       <Clock className="w-3 h-3" />
                       {guide.read_time}
                     </span>
                   </div>
 
-                  <h2 className="text-base font-bold text-white hover:text-orange-400 transition">
-                    <Link href={`/learn/${guide.slug}/`}>
-                      {guide.title}
-                    </Link>
+                  <h2 className="text-lg font-bold text-slate-900 hover:text-orange-600 transition">
+                    <Link href={`/learn/${guide.slug}/`}>{guide.title}</Link>
                   </h2>
 
-                  <p className="text-xs text-gray-400 leading-relaxed">
+                  <p className="text-xs text-slate-600 leading-relaxed">
                     {guide.excerpt}
                   </p>
                 </div>
 
-                <div className="pt-4 mt-4 border-t border-white/10 flex items-center justify-between">
+                <div className="pt-4 mt-4 border-t border-slate-100">
                   <Link
                     href={`/learn/${guide.slug}/`}
-                    className="inline-flex items-center gap-1.5 text-xs font-bold text-orange-400 hover:underline"
+                    className="inline-flex items-center gap-1 text-xs font-bold text-orange-600 hover:text-orange-700"
                   >
-                    <span>Read Guide</span>
-                    <ArrowRight className="w-3 h-3" />
+                    <span>Read Full Guide</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
                 </div>
               </article>

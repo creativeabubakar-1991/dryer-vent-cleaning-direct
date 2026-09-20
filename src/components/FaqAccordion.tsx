@@ -34,16 +34,16 @@ export default function FaqAccordion() {
   ];
 
   return (
-    <section id="faq" className="bg-[#0c1424] py-16 px-4 border-b border-white/10">
+    <section id="faq" className="bg-slate-50 py-16 px-4 border-b border-slate-200">
       <div className="max-w-4xl mx-auto space-y-10">
         <div className="text-center space-y-3">
-          <div className="inline-flex items-center gap-1.5 bg-orange-500/10 border border-orange-500/30 px-3 py-1 rounded-full text-xs font-bold text-orange-400 uppercase tracking-wide">
+          <div className="inline-flex items-center gap-1.5 bg-orange-100 border border-orange-200 px-3.5 py-1 rounded-full text-xs font-bold text-orange-700 uppercase tracking-wide">
             Got Questions?
           </div>
-          <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight">
+          <h2 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
             Frequently Asked Questions
           </h2>
-          <p className="text-gray-400 text-xs sm:text-sm">
+          <p className="text-slate-600 text-xs sm:text-sm">
             Everything you need to know about certified dryer vent cleaning, building codes, and fire safety.
           </p>
         </div>
@@ -54,24 +54,24 @@ export default function FaqAccordion() {
             return (
               <div
                 key={idx}
-                className="bg-[#070c18] border border-white/10 rounded-xl overflow-hidden transition"
+                className="bg-white border border-slate-200 rounded-xl overflow-hidden transition shadow-xs"
               >
                 <button
                   onClick={() => setOpenIdx(isOpen ? null : idx)}
-                  className="w-full px-5 py-4 flex items-center justify-between gap-4 text-left font-bold text-sm text-white hover:text-orange-400 transition"
+                  className="w-full px-5 py-4 flex items-center justify-between gap-4 text-left font-bold text-sm text-slate-900 hover:text-orange-600 transition"
                 >
                   <span className="flex items-center gap-2">
-                    <HelpCircle className="w-4 h-4 text-orange-500 shrink-0" />
+                    <HelpCircle className="w-4 h-4 text-orange-600 shrink-0" />
                     <span>{faq.q}</span>
                   </span>
                   <ChevronDown
-                    className={`w-4 h-4 text-gray-400 shrink-0 transition-transform duration-200 ${
-                      isOpen ? "rotate-180 text-orange-400" : ""
+                    className={`w-4 h-4 text-slate-400 shrink-0 transition-transform duration-200 ${
+                      isOpen ? "rotate-180 text-orange-600" : ""
                     }`}
                   />
                 </button>
                 {isOpen && (
-                  <div className="px-5 pb-5 pt-1 text-xs sm:text-sm text-gray-300 leading-relaxed border-t border-white/5">
+                  <div className="px-5 pb-5 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100">
                     {faq.a}
                   </div>
                 )}

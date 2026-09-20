@@ -11,11 +11,9 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#0B1528" },
-    { media: "(prefers-color-scheme: dark)", color: "#070C18" },
-  ],
+  themeColor: "#ffffff",
 };
+
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.domain),
@@ -78,8 +76,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
-      <body className="font-sans antialiased min-h-screen flex flex-col bg-[#070c18] text-slate-100 selection:bg-orange-500 selection:text-white">
+    <html lang="en" suppressHydrationWarning>
+      <body className="font-sans antialiased min-h-screen flex flex-col bg-slate-50 text-slate-800 selection:bg-orange-500 selection:text-white">
         <EmergencyBanner />
         <Header />
         <main className="flex-1">{children}</main>

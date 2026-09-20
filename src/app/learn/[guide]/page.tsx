@@ -67,42 +67,42 @@ export default async function GuidePage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <div className="bg-[#070c18] text-gray-200">
+      <div className="bg-slate-50 text-slate-800">
         {/* Breadcrumb */}
-        <div className="border-b border-white/10 bg-[#0c1424] py-2.5 px-4 text-xs text-gray-400">
+        <div className="border-b border-slate-200 bg-white py-2.5 px-4 text-xs text-slate-500">
           <div className="max-w-7xl mx-auto flex items-center gap-2">
-            <Link href="/" className="hover:text-white transition">Home</Link>
+            <Link href="/" className="hover:text-slate-900 transition">Home</Link>
             <span>/</span>
-            <Link href="/learn/" className="hover:text-white transition">Guides</Link>
+            <Link href="/learn/" className="hover:text-slate-900 transition">Guides</Link>
             <span>/</span>
-            <span className="text-orange-400 font-semibold">{guide.title}</span>
+            <span className="text-orange-600 font-semibold">{guide.title}</span>
           </div>
         </div>
 
         {/* Article Body */}
         <article className="py-12 px-4 max-w-4xl mx-auto text-left space-y-6">
           <div className="space-y-3">
-            <span className="px-2.5 py-0.5 rounded-full bg-orange-500/10 text-orange-400 font-bold border border-orange-500/20 text-[10px] uppercase">
+            <span className="px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-700 font-bold border border-orange-200 text-[10px] uppercase">
               {guide.category}
             </span>
-            <h1 className="text-2xl sm:text-4xl font-black text-white leading-tight">
+            <h1 className="text-2xl sm:text-4xl font-black text-slate-900 leading-tight">
               {guide.title}
             </h1>
-            <div className="flex items-center gap-3 text-xs text-gray-400 pt-1">
+            <div className="flex items-center gap-3 text-xs text-slate-500 pt-1">
               <span className="flex items-center gap-1">
                 <Clock className="w-3.5 h-3.5" />
                 {guide.read_time}
               </span>
               <span>·</span>
-              <span className="text-emerald-400 font-semibold flex items-center gap-1">
+              <span className="text-emerald-700 font-semibold flex items-center gap-1">
                 <ShieldCheck className="w-3.5 h-3.5" />
                 Reviewed by Certified Exhaust Technician
               </span>
             </div>
           </div>
 
-          <div className="bg-[#0c1424] border border-white/15 rounded-2xl p-6 sm:p-8 space-y-4 text-sm sm:text-base text-gray-300 leading-relaxed">
-            <p className="text-base sm:text-lg text-white font-medium border-l-4 border-orange-500 pl-4 py-1">
+          <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 space-y-4 text-sm sm:text-base text-slate-700 leading-relaxed shadow-xs">
+            <p className="text-base sm:text-lg text-slate-900 font-medium border-l-4 border-orange-600 pl-4 py-1 bg-orange-50/50 rounded-r-lg">
               {guide.excerpt}
             </p>
 
@@ -110,7 +110,7 @@ export default async function GuidePage({ params }: PageProps) {
               According to the National Fire Protection Association (NFPA) standard 211 and International Residential Code (IRC M1502), residential clothes dryer exhaust systems must be constructed of minimum 0.016-inch thick (28 gauge) rigid smooth metal ducting with non-penetrating mechanical connections.
             </p>
 
-            <h2 className="text-xl font-bold text-white pt-4">
+            <h2 className="text-xl font-bold text-slate-900 pt-4">
               Why Regular Dryer Exhaust Maintenance Saves Lives &amp; Money
             </h2>
 
@@ -118,37 +118,38 @@ export default async function GuidePage({ params }: PageProps) {
               When lint escapes the appliance lint trap, it travels into the exhaust ductwork. If the duct is excessively long, contains multiple 90-degree elbows, or terminates through a clogged rooftop cap, air velocity slows down. Lint falls out of the airstream and forms an insulating layer along pipe surfaces.
             </p>
 
-            <div className="bg-[#070c18] border border-white/10 rounded-xl p-5 my-4 space-y-2">
-              <div className="font-bold text-orange-400 text-sm flex items-center gap-1.5">
-                <Flame className="w-4 h-4 text-orange-500" />
+            <div className="bg-amber-50/60 border border-amber-200 rounded-xl p-5 my-4 space-y-2">
+              <div className="font-bold text-amber-900 text-sm flex items-center gap-1.5">
+                <Flame className="w-4 h-4 text-orange-600" />
                 <span>The 3 Critical Warning Signs</span>
               </div>
-              <ul className="text-xs sm:text-sm text-gray-300 space-y-1.5 list-disc pl-5">
+              <ul className="text-xs sm:text-sm text-slate-700 space-y-1.5 list-disc pl-5">
                 <li>Clothes take 2 or more complete cycles to dry fully.</li>
                 <li>The dryer top surface is scorching hot to the touch during operation.</li>
                 <li>The outdoor vent flapper barely opens or remains sealed shut.</li>
               </ul>
             </div>
 
-            <div className="pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-4">
+            <div className="pt-6 border-t border-slate-100 flex flex-wrap items-center justify-between gap-4">
               <div>
-                <div className="text-sm font-bold text-white">Need Professional Vent Service?</div>
-                <div className="text-xs text-gray-400">Same-day dispatch nationwide with upfront free phone estimates.</div>
+                <div className="text-sm font-bold text-slate-900">Need Professional Vent Service?</div>
+                <div className="text-xs text-slate-500">Same-day dispatch nationwide with upfront free phone estimates.</div>
               </div>
               <a
                 href={`tel:${siteConfig.phoneRaw}`}
-                className="bg-orange-600 hover:bg-orange-500 text-white font-bold text-xs uppercase px-5 py-3 rounded-xl transition"
+                className="bg-orange-600 hover:bg-orange-500 text-white font-bold text-xs uppercase px-5 py-3 rounded-xl transition shadow-xs flex items-center gap-1.5"
               >
-                Call: {siteConfig.phone}
+                <Phone className="w-3.5 h-3.5 fill-white" />
+                <span>Call: {siteConfig.phone}</span>
               </a>
             </div>
           </div>
         </article>
 
         {/* Cities */}
-        <section className="py-12 px-4 border-t border-white/10 text-left">
+        <section className="py-12 px-4 border-t border-slate-200 text-left bg-white">
           <div className="max-w-7xl mx-auto space-y-4">
-            <div className="text-xs uppercase font-bold text-gray-400 tracking-wider">
+            <div className="text-xs uppercase font-bold text-slate-500 tracking-wider">
               Service Available Across All Major Metros:
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
@@ -156,10 +157,10 @@ export default async function GuidePage({ params }: PageProps) {
                 <Link
                   key={c.slug}
                   href={`/dryer-vent-cleaning-${c.slug}/`}
-                  className="bg-[#0c1424] hover:bg-[#101b31] border border-white/10 rounded-lg p-3 text-xs text-gray-300 hover:text-orange-400 transition"
+                  className="bg-slate-50 hover:bg-orange-50/50 border border-slate-200 rounded-lg p-3 text-xs text-slate-700 hover:text-orange-600 transition shadow-xs"
                 >
-                  <div className="font-bold text-white">{c.city}, {c.state}</div>
-                  <div className="text-[10px] text-gray-500 mt-0.5">{c.response_time}</div>
+                  <div className="font-bold text-slate-900">{c.city}, {c.state}</div>
+                  <div className="text-[10px] text-slate-500 mt-0.5">{c.response_time}</div>
                 </Link>
               ))}
             </div>

@@ -25,33 +25,19 @@ export default function EmergencyBanner() {
           </span>
         </div>
 
-        {/* Right Call & Booking CTA */}
-        <div className="flex items-center justify-between w-full lg:w-auto gap-3 sm:gap-6 ml-auto">
-          <div className="hidden sm:flex items-center gap-1.5 text-gray-400 text-[11px]">
-            <Clock className="w-3.5 h-3.5 text-orange-400" />
+        {/* Right Call & Trust */}
+        <div className="flex items-center justify-between w-full lg:w-auto gap-4 sm:gap-6 ml-auto">
+          <div className="hidden sm:flex items-center gap-1.5 text-slate-400 text-[11px]">
+            <Clock className="w-3.5 h-3.5 text-amber-400" />
             <span>Avg Arrival: <strong className="text-white">45-75 Mins</strong></span>
           </div>
 
           <a
             href={`tel:${siteConfig.phoneRaw}`}
-            className="flex items-center gap-2 font-bold text-white hover:text-orange-400 transition"
+            className="flex items-center gap-1.5 text-xs font-bold text-amber-400 hover:text-amber-300 transition"
           >
-            <Phone className="w-3.5 h-3.5 text-orange-500 fill-orange-500" />
-            <span className="text-[11px] leading-tight text-left hidden sm:inline">
-              <span className="text-gray-400 font-normal block text-[10px]">Call Us 24/7</span>
-              {siteConfig.phone}
-            </span>
-            <span className="sm:hidden text-xs font-bold text-orange-400">
-              Call 24/7: {siteConfig.phone}
-            </span>
-          </a>
-
-          <a
-            href={`tel:${siteConfig.phoneRaw}`}
-            className="rounded-lg bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white font-black px-3.5 py-1.5 text-[11px] uppercase tracking-wider transition shadow-md flex items-center gap-1.5"
-          >
-            <Phone className="w-3 h-3 fill-white" />
-            <span>Call Dispatch</span>
+            <Phone className="w-3.5 h-3.5 fill-amber-400 text-amber-400 animate-pulse" />
+            <span>24/7 Live Line: <strong className="text-white underline">{siteConfig.phone}</strong></span>
           </a>
         </div>
       </div>

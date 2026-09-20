@@ -11,7 +11,7 @@ export default function Footer() {
   const topCities = citiesData.slice(0, 10);
 
   return (
-    <footer className="bg-[#050912] text-gray-300 border-t border-white/10 pt-16 pb-24 lg:pb-12 text-xs sm:text-sm">
+    <footer className="bg-slate-900 text-slate-300 border-t border-slate-800 pt-16 pb-24 lg:pb-12 text-xs sm:text-sm">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-12 border-b border-white/10 text-left">
           {/* Brand Info */}
