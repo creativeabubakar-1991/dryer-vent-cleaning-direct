@@ -93,9 +93,10 @@ export default function ServicesGrid() {
 
                 <a
                   href={`tel:${siteConfig.phoneRaw}`}
-                  className="bg-orange-600 hover:bg-orange-500 text-white text-[11px] font-bold px-3 py-1.5 rounded-lg transition"
+                  className="bg-orange-600 hover:bg-orange-500 text-white text-[11px] font-black px-3.5 py-1.5 rounded-lg transition shadow-md flex items-center gap-1"
                 >
-                  Book Service
+                  <Phone className="w-3 h-3 fill-white" />
+                  <span>Call to Dispatch</span>
                 </a>
               </div>
             </div>

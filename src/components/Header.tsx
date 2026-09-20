@@ -221,34 +221,24 @@ export default function Header() {
             </div>
           </div>
 
-          {/* 6. Fire Risk Calculator Anchor */}
+          {/* 6. Emergency Dispatch Link */}
           <a
-            href="#estimate-calculator"
-            className="px-3 py-2 rounded-lg text-amber-400 hover:text-amber-300 hover:bg-white/5 font-bold transition"
+            href={`tel:${siteConfig.phoneRaw}`}
+            className="px-3 py-2 rounded-lg text-amber-400 hover:text-amber-300 hover:bg-white/5 font-bold transition flex items-center gap-1.5"
           >
-            Cost Estimator
+            <span className="h-2 w-2 rounded-full bg-emerald-400 animate-ping" />
+            <span>Live Dispatch</span>
           </a>
         </nav>
 
-        {/* Right CTA Call & Booking */}
+        {/* Right CTA Call Button */}
         <div className="flex items-center gap-3">
           <a
             href={`tel:${siteConfig.phoneRaw}`}
-            className="hidden sm:flex items-center gap-2 bg-white/5 border border-white/10 hover:border-orange-500/50 rounded-lg px-3 py-2 text-white hover:text-orange-400 transition"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-600 via-amber-600 to-orange-600 hover:from-orange-500 hover:to-amber-500 text-white font-black text-xs sm:text-sm uppercase tracking-wider px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl shadow-xl shadow-orange-600/30 hover:scale-[1.03] active:scale-[0.97] transition border border-white/20"
           >
-            <Phone className="w-4 h-4 text-orange-500 fill-orange-500" />
-            <div className="text-left text-xs leading-tight">
-              <span className="text-[10px] text-gray-400 block font-medium">24/7 Dispatch</span>
-              <span className="font-extrabold tracking-wide">{siteConfig.phone}</span>
-            </div>
-          </a>
-
-          <a
-            href="#estimate-calculator"
-            className="hidden md:inline-flex items-center gap-1.5 bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white font-bold text-xs uppercase tracking-wide px-4 py-2.5 rounded-lg shadow-lg shadow-orange-600/25 hover:scale-[1.02] transition"
-          >
-            <Calendar className="w-3.5 h-3.5" />
-            <span>Book Free Inspection</span>
+            <Phone className="w-4 h-4 fill-white animate-bounce shrink-0" />
+            <span>Call Now: {siteConfig.phone}</span>
           </a>
 
           {/* Mobile Menu Button */}

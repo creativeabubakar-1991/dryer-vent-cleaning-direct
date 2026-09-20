@@ -47,10 +47,11 @@ export default function EmergencyBanner() {
           </a>
 
           <a
-            href="#estimate-calculator"
-            className="rounded bg-orange-600 hover:bg-orange-500 text-white font-bold px-3 py-1.5 text-[11px] uppercase tracking-wide transition shadow-sm"
+            href={`tel:${siteConfig.phoneRaw}`}
+            className="rounded-lg bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white font-black px-3.5 py-1.5 text-[11px] uppercase tracking-wider transition shadow-md flex items-center gap-1.5"
           >
-            Book Free Inspection
+            <Phone className="w-3 h-3 fill-white" />
+            <span>Call Dispatch</span>
           </a>
         </div>
       </div>

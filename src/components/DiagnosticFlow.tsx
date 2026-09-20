@@ -65,9 +65,9 @@ export default function DiagnosticFlow() {
 
                 <a
                   href={`tel:${siteConfig.phoneRaw}`}
-                  className="text-[11px] font-bold bg-white/10 hover:bg-white/15 text-white px-3 py-1.5 rounded-lg transition"
+                  className="text-xs font-black bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-500 hover:to-orange-500 text-white px-3 py-1.5 rounded-lg transition flex items-center gap-1 shadow-md"
                 >
-                  Call Tech
+                  <span>Call Emergency</span>
                 </a>
               </div>
             </div>

@@ -1,52 +1,34 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import {
   ShieldCheck,
   CheckCircle2,
   Phone,
   Flame,
-  ArrowRight,
-  Calculator,
-  AlertTriangle,
-  Wind,
-  Check,
   Clock,
   Sparkles,
+  Wind,
+  Check,
+  PhoneCall,
+  Zap,
 } from "lucide-react";
 import { siteConfig } from "@/config/site.config";
 
 export default function HeroSection() {
-  // Calculator state
-  const [zipOrAddress, setZipOrAddress] = useState("");
-  const [ventLocation, setVentLocation] = useState("wall");
-  const [homeStories, setHomeStories] = useState("1-story");
-  const [calculated, setCalculated] = useState(false);
-
-  const handleCalculate = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (zipOrAddress.trim().length > 0) {
-      setCalculated(true);
-    }
-  };
-
-  const isRooftop = ventLocation === "roof" || homeStories === "2-story";
-  const estimatedPrice = "Free Phone Quote";
-  const riskScore = isRooftop ? "High Fire Risk (Long Vertical Run)" : "Moderate to High Lint Risk";
-
   return (
-    <section className="relative overflow-hidden bg-[#070c18] pt-8 pb-16 lg:py-16 border-b border-white/10">
-      {/* Subtle Background Glow */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-orange-600/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-amber-600/10 rounded-full blur-3xl pointer-events-none" />
+    <section className="relative overflow-hidden bg-[#070c18] pt-8 pb-16 lg:py-20 border-b border-white/10">
+      {/* Subtle Background Glows */}
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-orange-600/15 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-amber-600/15 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-12 gap-8 lg:gap-12 items-center relative z-10">
         {/* Left Column: Hero Copy & Authority */}
         <div className="lg:col-span-7 space-y-6 text-left">
           {/* Pulsing Pill Badge */}
-          <div className="inline-flex items-center gap-2 rounded-full border border-orange-500/30 bg-orange-500/10 px-3.5 py-1 text-xs font-bold text-orange-400">
-            <span className="h-2 w-2 rounded-full bg-orange-500 animate-pulse" />
-            <span>CDET &amp; CSIA Certified Dryer Exhaust Network</span>
+          <div className="inline-flex items-center gap-2 rounded-full border border-orange-500/40 bg-orange-500/10 px-4 py-1.5 text-xs font-bold text-orange-400">
+            <span className="h-2.5 w-2.5 rounded-full bg-emerald-400 animate-ping" />
+            <span>24/7 National Dispatch Active · CDET &amp; CSIA Certified</span>
           </div>
 
           {/* H1 Heading */}
@@ -56,13 +38,12 @@ export default function HeroSection() {
               Dryer Vent Cleaners
             </span>{" "}
             <br />
-            Residential &amp; Commercial, Nationwide
+            Nationwide Same-Day Dispatch
           </h1>
 
           {/* Subtitle */}
           <p className="text-gray-300 text-sm sm:text-base max-w-xl leading-relaxed">
-            Dryer Vents · Fire Prevention · Air Ducts · Rooftop Exhaust. <br />
-            Eliminating dangerous lint buildup, cutting drying cycles in half, and protecting homes across all 50 states.
+            Eliminate hazardous lint buildup, stop burning smells, and protect your home from dryer fires. Direct connection to certified technicians across all 50 states with zero hold times.
           </p>
 
           {/* 4 Trust Checks */}
@@ -73,35 +54,35 @@ export default function HeroSection() {
             </div>
             <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-200">
               <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+              <span>Same-Day Local Arrival (45-75 Mins)</span>
+            </div>
+            <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-200">
+              <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
               <span>Licensed &amp; Insured ($2M Liability)</span>
             </div>
             <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-200">
               <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>50 States Nationwide Network</span>
-            </div>
-            <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-200">
-              <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>100% Lint-Free Guarantee</span>
+              <span>100% Lint-Free &amp; Airflow Guarantee</span>
             </div>
           </div>
 
-          {/* Dual Action CTAs */}
-          <div className="flex flex-wrap items-center gap-3 pt-2">
-            <a
-              href="#estimate-calculator"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white font-black text-xs sm:text-sm uppercase tracking-wider px-6 py-3.5 rounded-xl shadow-xl shadow-orange-600/30 hover:scale-[1.02] transition"
-            >
-              <span>Book Your Free Vent Inspection</span>
-              <ArrowRight className="w-4 h-4" />
-            </a>
-
+          {/* Primary High-Urgency Call Trigger */}
+          <div className="pt-3 space-y-2">
             <a
               href={`tel:${siteConfig.phoneRaw}`}
-              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/15 border border-white/20 text-white font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl hover:scale-[1.02] transition"
+              className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-orange-600 via-amber-600 to-orange-600 hover:from-orange-500 hover:to-amber-500 text-white font-black text-sm sm:text-base uppercase tracking-wider px-8 py-4 rounded-2xl shadow-2xl shadow-orange-600/40 hover:scale-[1.02] active:scale-[0.98] transition border border-white/20 w-full sm:w-auto"
             >
-              <Phone className="w-4 h-4 text-orange-400 fill-orange-400" />
-              <span>Call {siteConfig.phone}</span>
+              <PhoneCall className="w-5 h-5 fill-white animate-bounce shrink-0" />
+              <span>Call Dispatch Now: {siteConfig.phone}</span>
             </a>
+
+            <div className="flex items-center gap-2 text-xs text-gray-400 pl-1">
+              <span className="flex h-2 w-2 relative">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+              </span>
+              <span>Tap to call · 24/7 Live Operators · Zero forms or waiting</span>
+            </div>
           </div>
 
           {/* US Flag Network Badge */}
@@ -123,109 +104,67 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Right Column: Interactive "Dryer Fire Risk & Cost Estimator" Widget */}
-        <div id="estimate-calculator" className="lg:col-span-5 scroll-mt-24">
-          <div className="bg-[#0c1424] border border-white/15 rounded-2xl p-6 sm:p-7 shadow-2xl relative">
-            <div className="flex items-center justify-between pb-3 border-b border-white/10 mb-4">
-              <div>
-                <h2 className="text-base sm:text-lg font-black text-white uppercase tracking-tight flex items-center gap-2">
-                  <Flame className="w-5 h-5 text-orange-500 animate-pulse" />
-                  <span>CHECK FIRE RISK &amp; COSTS</span>
-                </h2>
-                <p className="text-xs text-gray-400 mt-0.5">
-                  Enter your address or zip code to see local pricing &amp; risk rating.
-                </p>
+        {/* Right Column: Ultra-Attractive Direct Phone Dispatch Hero Card */}
+        <div className="lg:col-span-5">
+          <div className="bg-[#0c1424] border-2 border-orange-500/60 rounded-3xl p-6 sm:p-8 shadow-2xl shadow-orange-600/20 relative text-left overflow-hidden">
+            {/* Ambient Corner Glow */}
+            <div className="absolute -top-20 -right-20 w-44 h-44 bg-orange-500/20 rounded-full blur-3xl pointer-events-none" />
+
+            {/* Header Badge */}
+            <div className="flex items-center justify-between pb-3 border-b border-white/10 mb-5">
+              <div className="flex items-center gap-2">
+                <span className="relative flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+                </span>
+                <span className="text-xs font-black tracking-wider uppercase text-emerald-400">
+                  Technicians On-Duty Right Now
+                </span>
               </div>
-              <span className="text-[10px] font-bold bg-orange-500/20 text-orange-400 border border-orange-500/30 px-2 py-0.5 rounded">
-                Instant
+              <span className="text-[10px] font-bold bg-orange-500/20 text-orange-400 border border-orange-500/40 px-2 py-0.5 rounded">
+                Live 24/7
               </span>
             </div>
 
-            <form onSubmit={handleCalculate} className="space-y-3.5 text-left">
-              <div>
-                <label className="block text-xs font-bold text-gray-300 mb-1">
-                  Full Address or Zip Code
-                </label>
-                <input
-                  type="text"
-                  required
-                  placeholder="e.g. 75201, 32801, or Street Address"
-                  value={zipOrAddress}
-                  onChange={(e) => setZipOrAddress(e.target.value)}
-                  className="w-full bg-[#070c18] border border-white/20 rounded-lg px-3.5 py-2.5 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition"
-                />
+            <div className="space-y-2 mb-6">
+              <h2 className="text-xl sm:text-2xl font-black text-white tracking-tight leading-snug">
+                Need Same-Day Dryer Vent Service?
+              </h2>
+              <p className="text-xs sm:text-sm text-gray-300">
+                Skip online forms and waiting for callbacks. Speak directly with a certified technician right now for immediate same-day dispatch.
+              </p>
+            </div>
+
+            {/* PRIMARY CALL BOX: GIANT NUMBER & TAP-TO-CALL */}
+            <div className="bg-gradient-to-b from-orange-950/60 to-[#070c18] border-2 border-orange-500 rounded-2xl p-6 text-center shadow-xl mb-6 space-y-3 relative overflow-hidden">
+              <div className="text-[11px] font-bold text-orange-300 uppercase tracking-widest flex items-center justify-center gap-1.5">
+                <Zap className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
+                <span>Direct Dispatch · Zero Hold Time</span>
               </div>
 
-              <div className="grid grid-cols-2 gap-3">
-                <div>
-                  <label className="block text-xs font-bold text-gray-300 mb-1">
-                    Exhaust Exit
-                  </label>
-                  <select
-                    value={ventLocation}
-                    onChange={(e) => setVentLocation(e.target.value)}
-                    className="w-full bg-[#070c18] border border-white/20 rounded-lg px-2.5 py-2.5 text-xs text-white focus:outline-none focus:border-orange-500 transition"
-                  >
-                    <option value="wall">Side Wall Exit (Ground)</option>
-                    <option value="roof">Rooftop Exit (Vertical)</option>
-                    <option value="crawlspace">Basement / Crawlspace</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-xs font-bold text-gray-300 mb-1">
-                    Home Style
-                  </label>
-                  <select
-                    value={homeStories}
-                    onChange={(e) => setHomeStories(e.target.value)}
-                    className="w-full bg-[#070c18] border border-white/20 rounded-lg px-2.5 py-2.5 text-xs text-white focus:outline-none focus:border-orange-500 transition"
-                  >
-                    <option value="1-story">1-Story Single Family</option>
-                    <option value="2-story">2-Story / Multilevel</option>
-                    <option value="condo">Townhouse / Condo</option>
-                  </select>
-                </div>
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white font-black text-xs uppercase tracking-wider py-3 rounded-xl shadow-lg shadow-orange-600/30 transition flex items-center justify-center gap-2"
+              <a
+                href={`tel:${siteConfig.phoneRaw}`}
+                className="block text-3xl sm:text-4xl font-black text-white hover:text-orange-400 transition tracking-tight py-1"
               >
-                <Calculator className="w-4 h-4" />
-                <span>Estimate Cleaning Cost &amp; Fire Risk</span>
-              </button>
-            </form>
+                {siteConfig.phone}
+              </a>
 
-            {/* Calculated Output Box */}
-            {calculated && (
-              <div className="mt-4 bg-orange-950/40 border border-orange-500/40 rounded-xl p-4 text-left space-y-2.5 animate-fadeIn">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-orange-300 uppercase tracking-wide">
-                    Service Estimate:
-                  </span>
-                  <span className="text-sm font-black text-emerald-400">Free Phone Quote Available</span>
-                </div>
-                <div className="flex items-center justify-between text-xs">
-                  <span className="text-gray-300 font-medium">Lint Fire Hazard:</span>
-                  <span className="font-bold text-amber-400">{riskScore}</span>
-                </div>
-                <div className="flex items-center justify-between text-xs">
-                  <span className="text-gray-300 font-medium">Airflow Boost:</span>
-                  <span className="font-bold text-emerald-400">+140% Dryer Efficiency</span>
-                </div>
+              <a
+                href={`tel:${siteConfig.phoneRaw}`}
+                className="w-full bg-gradient-to-r from-orange-600 via-amber-600 to-orange-600 hover:from-orange-500 hover:to-amber-500 text-white font-black text-sm uppercase tracking-wider py-4 px-6 rounded-xl shadow-xl shadow-orange-600/40 flex items-center justify-center gap-2 hover:scale-[1.02] active:scale-[0.98] transition cursor-pointer border border-white/20"
+              >
+                <Phone className="w-5 h-5 fill-white animate-pulse" />
+                <span>Tap to Call On-Duty Specialist</span>
+              </a>
 
-                <a
-                  href={`tel:${siteConfig.phoneRaw}`}
-                  className="mt-2 block text-center bg-orange-600 hover:bg-orange-500 text-white font-black text-xs uppercase tracking-wide py-2.5 rounded-lg shadow-md transition"
-                >
-                  ⚡ Call For Instant Free Quote: {siteConfig.phone}
-                </a>
+              <div className="text-[11px] text-gray-400 flex items-center justify-center gap-1.5 pt-1">
+                <Clock className="w-3.5 h-3.5 text-orange-400" />
+                <span>Average Arrival: <strong className="text-white">45-75 Minutes</strong></span>
               </div>
-            )}
+            </div>
 
             {/* Micro Trust Points */}
-            <div className="mt-5 grid grid-cols-4 gap-2 text-center pt-3 border-t border-white/10">
+            <div className="grid grid-cols-4 gap-2 text-center pt-2 border-t border-white/10">
               <div className="bg-white/5 rounded-lg p-2 border border-white/5">
                 <ShieldCheck className="w-4 h-4 text-emerald-400 mx-auto mb-1" />
                 <span className="text-[9px] font-semibold text-gray-300 leading-tight block">

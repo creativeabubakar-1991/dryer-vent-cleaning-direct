@@ -140,10 +140,11 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
                 </a>
 
                 <a
-                  href="#pricing-matrix"
+                  href={`tel:${siteConfig.phoneRaw}`}
                   className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/15 border border-white/20 text-white font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl transition"
                 >
-                  View Service Packages
+                  <span className="h-2 w-2 rounded-full bg-emerald-400 animate-ping" />
+                  <span>24/7 Emergency: {siteConfig.phone}</span>
                 </a>
               </div>
             </div>

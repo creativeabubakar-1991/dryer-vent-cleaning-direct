@@ -106,7 +106,7 @@ export default async function ServicePage({ params }: PageProps) {
               <div className="grid sm:grid-cols-2 gap-3 max-w-lg text-xs sm:text-sm text-gray-200 pt-2">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />
-                  <span>Average Cost: <strong className="text-white">{service.average_cost}</strong></span>
+                  <span>Estimate: <strong className="text-emerald-400">Free by Phone</strong></span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4 text-orange-400 shrink-0" />
@@ -125,10 +125,10 @@ export default async function ServicePage({ params }: PageProps) {
               <div className="flex flex-wrap items-center gap-3 pt-3">
                 <a
                   href={`tel:${siteConfig.phoneRaw}`}
-                  className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white font-black text-xs sm:text-sm uppercase tracking-wider px-6 py-3.5 rounded-xl shadow-xl shadow-orange-600/30 transition"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white font-black text-xs sm:text-sm uppercase tracking-wider px-7 py-4 rounded-xl shadow-xl shadow-orange-600/30 hover:scale-[1.02] transition"
                 >
                   <Phone className="w-4 h-4 fill-white" />
-                  <span>Call {siteConfig.phone}</span>
+                  <span>Call to Dispatch: {siteConfig.phone}</span>
                 </a>
               </div>
             </div>
@@ -136,9 +136,9 @@ export default async function ServicePage({ params }: PageProps) {
             {/* Quick Box */}
             <div className="lg:col-span-4 bg-[#0c1424] border border-white/15 rounded-2xl p-6 space-y-4">
               <div className="border-b border-white/10 pb-3">
-                <div className="text-[10px] uppercase font-bold text-orange-400">Pricing &amp; Booking</div>
-                <div className="text-2xl font-black text-white">{service.average_cost}</div>
-                <div className="text-xs text-gray-400">Flat upfront estimate</div>
+                <div className="text-[10px] uppercase font-bold text-orange-400">Direct Dispatch</div>
+                <div className="text-2xl font-black text-white">Free Phone Quote</div>
+                <div className="text-xs text-gray-400">Instant connection · Zero hold time</div>
               </div>
 
               <div className="space-y-2 text-xs text-gray-300">
