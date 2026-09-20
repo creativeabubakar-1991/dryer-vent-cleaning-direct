@@ -73,7 +73,7 @@ export default function Header() {
                   className="block px-2.5 py-2 rounded-lg hover:bg-white/5 hover:text-orange-400 text-gray-200 transition"
                 >
                   <div className="font-bold text-white text-xs">Residential Vent Cleaning</div>
-                  <div className="text-[11px] text-gray-400 font-normal">Rotary brush &amp; HEPA extraction ($99)</div>
+                  <div className="text-[11px] text-gray-400 font-normal">Rotary brush &amp; HEPA extraction</div>
                 </Link>
                 <Link
                   href="/services/rooftop-dryer-vent-cleaning/"
@@ -289,14 +289,14 @@ export default function Header() {
               onClick={() => setMobileOpen(false)}
               className="block py-1.5 text-gray-300 hover:text-white"
             >
-              Residential Dryer Vent Cleaning ($99)
+              Residential Dryer Vent Cleaning
             </Link>
             <Link
               href="/services/rooftop-dryer-vent-cleaning/"
               onClick={() => setMobileOpen(false)}
               className="block py-1.5 text-gray-300 hover:text-white"
             >
-              Rooftop Dryer Vent Cleaning ($179)
+              Rooftop Dryer Vent Cleaning
             </Link>
             <Link
               href="/services/dryer-vent-repair-replacement/"

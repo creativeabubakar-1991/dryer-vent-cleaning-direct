@@ -39,7 +39,7 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
   const cityFaqs = [
     {
       question: `How much does dryer vent cleaning cost in ${city.city}, ${city.state}?`,
-      answer: `Standard residential dryer vent cleaning in ${city.city} starts at $99 flat for ground-floor exterior wall vents. Two-story homes, complex attic runs, or rooftop vent terminations range from $179 to $249. We provide 100% upfront pricing with zero hidden fees.`,
+      answer: `Dryer vent cleaning pricing in ${city.city} depends on your duct run length and whether the exhaust terminates through an exterior side wall, basement, or two-story rooftop. We provide 100% free estimates over the phone with upfront pricing and zero hidden fees before any work begins. Call ${siteConfig.phone} for an instant local estimate.`,
     },
     {
       question: `How quickly can a technician arrive in ${city.city}?`,
@@ -113,7 +113,7 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
               <div className="grid sm:grid-cols-2 gap-2.5 max-w-lg text-xs sm:text-sm text-gray-200 pt-1">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />
-                  <span>Flat-Rate ${city.cleaning_price || "99"} Starting Price</span>
+                  <span>Free Phone Estimates &amp; Upfront Pricing</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />
@@ -143,7 +143,7 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
                   href="#pricing-matrix"
                   className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/15 border border-white/20 text-white font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl transition"
                 >
-                  View Local Pricing
+                  View Service Packages
                 </a>
               </div>
             </div>
@@ -163,8 +163,8 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
                   <span className="font-bold text-emerald-400">{city.response_time}</span>
                 </div>
                 <div className="flex justify-between py-1 border-b border-white/5">
-                  <span className="text-gray-400">Standard Cleaning:</span>
-                  <span className="font-bold text-white">${city.cleaning_price || "99"} Flat</span>
+                  <span className="text-gray-400">Service Estimates:</span>
+                  <span className="font-bold text-emerald-400">Free Phone Quote</span>
                 </div>
                 <div className="flex justify-between py-1 border-b border-white/5">
                   <span className="text-gray-400">Local Technicians:</span>
@@ -279,35 +279,59 @@ export default function CityPageTemplate({ city }: CityPageTemplateProps) {
           </div>
         </section>
 
-        {/* Local Pricing Table */}
+        {/* Local Service Packages */}
         <section id="pricing-matrix" className="py-16 px-4 bg-[#0c1424] border-b border-white/10">
           <div className="max-w-5xl mx-auto space-y-8 text-center">
             <div>
               <h2 className="text-2xl sm:text-3xl font-black text-white">
-                Flat-Rate {city.city} Dryer Vent Pricing
+                Certified {city.city} Dryer Vent Service Packages
               </h2>
               <p className="text-xs sm:text-sm text-gray-400 mt-1">
-                No trip charges, no hidden fees. All equipment, containment, and testing included.
+                No trip charges, no hidden fees. Free phone estimates with all equipment, containment, and airflow testing included.
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-5 text-left">
-              <div className="bg-[#070c18] border border-white/10 rounded-xl p-5 space-y-3">
-                <div className="font-bold text-white text-sm">Standard 1-Story Clean</div>
-                <div className="text-3xl font-black text-orange-400">${city.cleaning_price || "99"}</div>
-                <p className="text-xs text-gray-400">Side-wall exterior exit under 15 feet. Complete rotary brush scrub &amp; airflow test.</p>
+              <div className="bg-[#070c18] border border-white/10 rounded-xl p-5 space-y-3 flex flex-col justify-between">
+                <div className="space-y-3">
+                  <div className="font-bold text-white text-sm">Standard 1-Story Clean</div>
+                  <div className="text-2xl font-black text-emerald-400">Free Estimate</div>
+                  <p className="text-xs text-gray-400">Side-wall exterior exit under 15 feet. Complete rotary brush scrub &amp; airflow test.</p>
+                </div>
+                <a
+                  href={`tel:${siteConfig.phoneRaw}`}
+                  className="block text-center bg-white/10 hover:bg-white/20 text-white font-bold text-xs py-2.5 rounded-lg transition mt-3"
+                >
+                  Call for Estimate
+                </a>
               </div>
 
-              <div className="bg-[#0f1b33] border-2 border-orange-500 rounded-xl p-5 space-y-3 shadow-xl">
-                <div className="font-bold text-white text-sm">Deep Clean + Pest Guard</div>
-                <div className="text-3xl font-black text-orange-400">$149</div>
-                <p className="text-xs text-gray-300">Complete rotary line cleanout plus installation of heavy-gauge steel exterior animal guard.</p>
+              <div className="bg-[#0f1b33] border-2 border-orange-500 rounded-xl p-5 space-y-3 shadow-xl flex flex-col justify-between">
+                <div className="space-y-3">
+                  <div className="font-bold text-white text-sm">Deep Clean + Pest Guard</div>
+                  <div className="text-2xl font-black text-orange-400">Free Estimate</div>
+                  <p className="text-xs text-gray-300">Complete rotary line cleanout plus installation of heavy-gauge steel exterior animal guard.</p>
+                </div>
+                <a
+                  href={`tel:${siteConfig.phoneRaw}`}
+                  className="block text-center bg-orange-600 hover:bg-orange-500 text-white font-bold text-xs py-2.5 rounded-lg transition mt-3"
+                >
+                  Call for Estimate
+                </a>
               </div>
 
-              <div className="bg-[#070c18] border border-white/10 rounded-xl p-5 space-y-3">
-                <div className="font-bold text-white text-sm">Rooftop &amp; Multistory</div>
-                <div className="text-3xl font-black text-orange-400">$179 - $249</div>
-                <p className="text-xs text-gray-400">Full roof access service with OSHA safety harnesses for 2-story homes and townhouses.</p>
+              <div className="bg-[#070c18] border border-white/10 rounded-xl p-5 space-y-3 flex flex-col justify-between">
+                <div className="space-y-3">
+                  <div className="font-bold text-white text-sm">Rooftop &amp; Multistory</div>
+                  <div className="text-2xl font-black text-amber-400">Free Estimate</div>
+                  <p className="text-xs text-gray-400">Full roof access service with OSHA safety harnesses for 2-story homes and townhouses.</p>
+                </div>
+                <a
+                  href={`tel:${siteConfig.phoneRaw}`}
+                  className="block text-center bg-white/10 hover:bg-white/20 text-white font-bold text-xs py-2.5 rounded-lg transition mt-3"
+                >
+                  Call for Estimate
+                </a>
               </div>
             </div>
           </div>

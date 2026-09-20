@@ -11,7 +11,7 @@ interface LeadCaptureFormProps {
 
 export default function LeadCaptureForm({
   cityName = "Nationwide",
-  defaultService = "Residential Dryer Vent Cleaning ($99)",
+  defaultService = "Residential Dryer Vent Cleaning",
 }: LeadCaptureFormProps) {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -66,7 +66,7 @@ export default function LeadCaptureForm({
       <div className="mb-6 space-y-2">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-orange-500/10 text-orange-400 border border-orange-500/20">
           <Clock className="w-3.5 h-3.5" />
-          <span>Priority Dispatch Active • Starting at $99</span>
+          <span>Priority Dispatch Active • Free Phone Estimates</span>
         </div>
         <h3 className="text-2xl font-black tracking-tight text-white">
           Book Your Dryer Vent Inspection
@@ -117,8 +117,8 @@ export default function LeadCaptureForm({
               onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
               className="w-full bg-[#070c18] border border-white/20 rounded-lg px-3 py-2.5 text-white focus:outline-none focus:border-orange-500 transition"
             >
-              <option value="Residential Dryer Vent Cleaning ($99)">Residential Dryer Vent Cleaning ($99)</option>
-              <option value="Rooftop Dryer Vent Cleaning ($179 - $249)">Rooftop Dryer Vent Cleaning ($179 - $249)</option>
+              <option value="Residential Dryer Vent Cleaning">Residential Dryer Vent Cleaning</option>
+              <option value="Rooftop Dryer Vent Cleaning">Rooftop Dryer Vent Cleaning</option>
               <option value="Dryer Vent Repair & Replacement">Duct Repair &amp; Rigid Metal Replacement</option>
               <option value="Bird Nest Removal & Pest Guard">Bird Nest Removal &amp; Pest Guards</option>
               <option value="Commercial Dryer Vent Cleaning">Commercial Laundromat Venting</option>

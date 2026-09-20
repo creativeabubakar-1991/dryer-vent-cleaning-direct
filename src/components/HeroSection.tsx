@@ -31,7 +31,7 @@ export default function HeroSection() {
   };
 
   const isRooftop = ventLocation === "roof" || homeStories === "2-story";
-  const estimatedPrice = isRooftop ? "$179 - $249" : "$99 - $149";
+  const estimatedPrice = "Free Phone Quote";
   const riskScore = isRooftop ? "High Fire Risk (Long Vertical Run)" : "Moderate to High Lint Risk";
 
   return (
@@ -202,9 +202,9 @@ export default function HeroSection() {
               <div className="mt-4 bg-orange-950/40 border border-orange-500/40 rounded-xl p-4 text-left space-y-2.5 animate-fadeIn">
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-orange-300 uppercase tracking-wide">
-                    Estimated Cost:
+                    Service Estimate:
                   </span>
-                  <span className="text-lg font-black text-white">{estimatedPrice}</span>
+                  <span className="text-sm font-black text-emerald-400">Free Phone Quote Available</span>
                 </div>
                 <div className="flex items-center justify-between text-xs">
                   <span className="text-gray-300 font-medium">Lint Fire Hazard:</span>
@@ -219,7 +219,7 @@ export default function HeroSection() {
                   href={`tel:${siteConfig.phoneRaw}`}
                   className="mt-2 block text-center bg-orange-600 hover:bg-orange-500 text-white font-black text-xs uppercase tracking-wide py-2.5 rounded-lg shadow-md transition"
                 >
-                  ⚡ Call Now for Same-Day Service: {siteConfig.phone}
+                  ⚡ Call For Instant Free Quote: {siteConfig.phone}
                 </a>
               </div>
             )}

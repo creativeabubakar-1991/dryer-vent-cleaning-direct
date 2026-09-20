@@ -133,7 +133,7 @@ export default async function GuidePage({ params }: PageProps) {
             <div className="pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-4">
               <div>
                 <div className="text-sm font-bold text-white">Need Professional Vent Service?</div>
-                <div className="text-xs text-gray-400">Same-day dispatch nationwide starting at $99 flat.</div>
+                <div className="text-xs text-gray-400">Same-day dispatch nationwide with upfront free phone estimates.</div>
               </div>
               <a
                 href={`tel:${siteConfig.phoneRaw}`}

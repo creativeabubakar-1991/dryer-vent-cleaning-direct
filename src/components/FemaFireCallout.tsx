@@ -44,7 +44,7 @@ export default function FemaFireCallout() {
             Prevent Dryer Fires Today
           </div>
           <div className="text-2xl font-black text-orange-400">
-            From {siteConfig.pricing.standardClean} Flat
+            Free Phone Estimates
           </div>
           <p className="text-[11px] text-gray-400">
             Full rotary brushing, HEPA containment, and airflow CFM testing included.

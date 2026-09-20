@@ -4,7 +4,7 @@
     "slug": "residential-dryer-vent-cleaning",
     "short_title": "Dryer Vent Cleaning",
     "hero_description": "Certified rotary brush and industrial HEPA negative-air extraction for residential dryer vents across all 50 states. Removes highly flammable lint, cuts drying cycles in half, and eliminates fire risks.",
-    "average_cost": "$99 - $149",
+    "average_cost": "Free Phone Estimate",
     "estimated_duration": "45 - 60 Minutes",
     "symptoms": [
       "Clothes take 2 to 3 full cycles to dry completely",
@@ -31,7 +31,7 @@
       },
       {
         "question": "Can clean dryer vents really lower my electric bill?",
-        "answer": "Yes. When a vent is clogged, your dryer operates for 90 to 120 minutes instead of 40 minutes per load. Professional lint clearing restores unrestricted airflow, saving average households $18 to $24 per month ($216 - $288 annually) in electricity or gas consumption."
+        "answer": "Yes. When a vent is clogged, your dryer operates for 90 to 120 minutes instead of 40 minutes per load. Professional lint clearing restores unrestricted airflow, saving average households up to 30% in monthly utility costs in electricity or gas consumption."
       }
     ]
   },
@@ -40,7 +40,7 @@
     "slug": "rooftop-dryer-vent-cleaning",
     "short_title": "Rooftop Vent Cleaning",
     "hero_description": "Specialized roof-access dryer vent cleaning, dampered exhaust cap service, and heavy lint removal for two-story homes, townhouses, and multistory properties nationwide.",
-    "average_cost": "$179 - $249",
+    "average_cost": "Free Phone Estimate",
     "estimated_duration": "1 - 1.5 Hours",
     "symptoms": [
       "Exhaust duct travels upward through walls or attic to a rooftop termination cap",
@@ -72,7 +72,7 @@
     "slug": "dryer-vent-repair-replacement",
     "short_title": "Vent Repair & Replacement",
     "hero_description": "Code-compliant replacement of ripped, crushed foil or hazardous plastic transition hoses with rigid, fire-rated UL 2158A smooth metal ductwork.",
-    "average_cost": "$150 - $350",
+    "average_cost": "Free Phone Consultation",
     "estimated_duration": "1 - 2 Hours",
     "symptoms": [
       "White vinyl, flexible plastic, or corrugated foil accordion hose behind dryer",
@@ -104,7 +104,7 @@
     "slug": "dryer-vent-rerouting",
     "short_title": "Vent Rerouting",
     "hero_description": "Redesigning overly long, excessively bent, or poorly routed dryer ductwork to achieve the shortest, straightest, and safest path to outdoor exhaust.",
-    "average_cost": "$250 - $550",
+    "average_cost": "Free Phone Estimate",
     "estimated_duration": "2 - 3 Hours",
     "symptoms": [
       "Duct run exceeds 35 equivalent feet with multiple 90-degree elbows",
@@ -132,7 +132,7 @@
     "slug": "bird-nest-pest-guard-installation",
     "short_title": "Bird Nest & Pest Guards",
     "hero_description": "Safe extraction of birds, squirrels, rodents, and nests from dryer vents, followed by installation of heavy-gauge steel pest-exclusion covers.",
-    "average_cost": "$119 - $189",
+    "average_cost": "Free Phone Estimate",
     "estimated_duration": "45 - 60 Minutes",
     "symptoms": [
       "Chirping, scratching, or fluttering sounds coming from behind the laundry wall",
@@ -164,7 +164,7 @@
     "slug": "dryer-booster-fan-installation",
     "short_title": "Dryer Booster Fans",
     "hero_description": "Installation and servicing of UL-705 DEDPV certified auxiliary exhaust booster fans for long residential and commercial duct runs exceeding 35 feet.",
-    "average_cost": "$350 - $650",
+    "average_cost": "Free Phone Consultation",
     "estimated_duration": "1.5 - 2.5 Hours",
     "symptoms": [
       "Duct run exceeds 35 feet and cannot be rerouted due to home architectural layout",
@@ -192,7 +192,7 @@
     "slug": "commercial-dryer-vent-cleaning",
     "short_title": "Commercial Vent Cleaning",
     "hero_description": "High-capacity commercial exhaust cleaning for laundromats, hotels, multi-family apartment complexes, senior living facilities, fitness gyms, and pet grooming salons.",
-    "average_cost": "$295 - $950+",
+    "average_cost": "Custom Facility Quote",
     "estimated_duration": "2 - 4 Hours",
     "symptoms": [
       "Multiple commercial dryers venting into common manifold collector ducts",
@@ -220,7 +220,7 @@
     "slug": "air-duct-cleaning",
     "short_title": "Air Duct Cleaning",
     "hero_description": "Comprehensive NADCA-standard supply and return air duct cleaning, evaporator coil inspection, and EPA-registered antimicrobial fogging for clean, allergen-free indoor air.",
-    "average_cost": "$399 - $799",
+    "average_cost": "Free Whole-Home Quote",
     "estimated_duration": "2.5 - 4 Hours",
     "symptoms": [
       "Dust puffs blowing from supply registers when HVAC heating/cooling kicks on",
@@ -239,7 +239,7 @@
     "faqs": [
       {
         "question": "Can I bundle dryer vent cleaning with air duct cleaning for a discount?",
-        "answer": "Yes! Over 65% of our residential customers bundle their annual dryer vent cleaning with whole-house air duct cleaning, saving up to $100 compared to booking the services separately."
+        "answer": "Yes! Over 65% of our residential customers bundle their annual dryer vent cleaning with whole-house air duct cleaning, saving significantly compared to booking the services separately."
       }
     ]
   }

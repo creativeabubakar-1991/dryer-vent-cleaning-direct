@@ -53,7 +53,7 @@ export function generateLocalBusinessSchema(city: CityData) {
     "telephone": siteConfig.phone,
     "email": siteConfig.email,
     "url": `${siteConfig.domain}/dryer-vent-cleaning-${city.slug}/`,
-    "priceRange": city.price_range || "$99 - $149",
+    "priceRange": "$$",
     "paymentAccepted": "Cash, Credit Card, Debit Card, Check, Zelle",
     "currenciesAccepted": "USD",
     "address": {

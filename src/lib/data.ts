@@ -76,7 +76,7 @@ export function getNearbyCities(city: CityData): CityData[] {
 export function getCityPageMeta(city: CityData) {
   const phone = siteConfig.phone;
   return {
-    title: `Dryer Vent Cleaning ${city.city} ${city.state} | $99 Flat | ${siteConfig.name}`,
+    title: `Dryer Vent Cleaning ${city.city} ${city.state} | Free Estimates | ${siteConfig.name}`,
     description: `Certified dryer vent cleaning in ${city.city}, ${city.state}. CDET technicians, rapid rotary brush & HEPA extraction, rooftop service, and fire prevention: ${phone}.`,
     h1: `Certified Dryer Vent Cleaning in ${city.city}, ${city.state}`,
     subhead: `Same-day priority lint removal, rooftop cleaning, and USFA fire safety compliance across ${city.city} and ${city.county}.`,

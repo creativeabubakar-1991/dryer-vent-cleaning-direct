@@ -6,7 +6,7 @@ export default function PricingTable() {
   const tiers = [
     {
       name: "Standard Residential",
-      price: "$99",
+      price: "Free Estimate",
       range: "Standard single-story clean",
       description: "Ideal for ground-floor laundry rooms venting through a side exterior wall under 15 feet.",
       popular: false,
@@ -21,7 +21,7 @@ export default function PricingTable() {
     },
     {
       name: "Deep Clean + Pest Guard",
-      price: "$149",
+      price: "Free Estimate",
       range: "Most Popular Residential Package",
       description: "Complete rotary scrub plus installation of a heavy-duty steel exterior pest exclusion hood.",
       popular: true,
@@ -36,7 +36,7 @@ export default function PricingTable() {
     },
     {
       name: "Rooftop & Multilevel",
-      price: "$179 - $249",
+      price: "Free Estimate",
       range: "2-Story & Townhouse Vertical Runs",
       description: "Full roof-access service for dryer ducts venting upward through attics to roof terminations.",
       popular: false,
@@ -56,13 +56,13 @@ export default function PricingTable() {
       <div className="max-w-7xl mx-auto space-y-12">
         <div className="text-center max-w-3xl mx-auto space-y-3">
           <div className="inline-flex items-center gap-1.5 bg-white/5 border border-white/10 px-3 py-1 rounded-full text-xs font-bold text-gray-300 uppercase tracking-wide">
-            Transparent Pricing
+            Transparent Estimates
           </div>
           <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight">
-            Clear, Upfront Flat-Rate Pricing — No Hidden Fees
+            Clear, Upfront Estimates — No Hidden Fees
           </h2>
           <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-            Unlike bait-and-switch cleaners who advertise $39 and charge $300 on arrival, our pricing is 100% transparent and all-inclusive.
+            Get an instant free phone quote with upfront pricing. No bait-and-switch fees or surprise charges on arrival.
           </p>
         </div>
 
@@ -89,8 +89,8 @@ export default function PricingTable() {
                 </div>
 
                 <div className="flex items-baseline gap-1">
-                  <span className="text-3xl sm:text-4xl font-black text-white">{t.price}</span>
-                  <span className="text-xs text-gray-400">/ service</span>
+                  <span className="text-2xl sm:text-3xl font-black text-white">{t.price}</span>
+                  <span className="text-xs text-gray-400">by phone</span>
                 </div>
 
                 <p className="text-xs text-gray-300 leading-relaxed">{t.description}</p>
@@ -108,13 +108,14 @@ export default function PricingTable() {
               <div className="pt-6 mt-6 border-t border-white/10">
                 <a
                   href={`tel:${siteConfig.phoneRaw}`}
-                  className={`block w-full text-center font-bold text-xs uppercase tracking-wider py-3 rounded-xl transition shadow-md ${
+                  className={`block w-full text-center font-bold text-xs uppercase tracking-wider py-3 rounded-xl transition shadow-md flex items-center justify-center gap-2 ${
                     t.popular
                       ? "bg-orange-600 hover:bg-orange-500 text-white"
                       : "bg-white/10 hover:bg-white/15 text-white"
                   }`}
                 >
-                  Book Package: {siteConfig.phone}
+                  <Phone className="w-3.5 h-3.5 fill-white" />
+                  <span>Call for Free Quote: {siteConfig.phone}</span>
                 </a>
               </div>
             </div>

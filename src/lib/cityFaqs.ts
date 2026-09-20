@@ -5,7 +5,7 @@ export function generateCityFaqs(city: CityData): { question: string; answer: st
   return [
     {
       question: `How much does dryer vent cleaning cost in ${city.city}, ${city.state}?`,
-      answer: `Standard residential dryer vent cleaning in ${city.city} starts at $99 flat for ground-floor exterior wall vents. Two-story homes, complex attic runs, or rooftop terminations range from $179 to $249. We provide 100% upfront pricing with zero hidden fees.`,
+      answer: `Dryer vent cleaning pricing in ${city.city} depends on your duct length, whether the exhaust terminates through an exterior side wall, basement, or two-story rooftop, and the degree of lint buildup. We provide 100% free estimates over the phone with upfront pricing and zero hidden fees before any work begins. Call ${siteConfig.phone} for an instant quote.`,
     },
     {
       question: `How quickly can a technician arrive in ${city.city}?`,

@@ -83,7 +83,7 @@ export default function PhoneDispatchHeroCard({
       <ul className="space-y-2 mb-5 text-xs text-gray-200">
         <li className="flex items-center gap-2">
           <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />
-          <span>Starting at $99 Flat Rate (No Hidden Fees)</span>
+          <span>Free Estimates &amp; Upfront Pricing (No Hidden Fees)</span>
         </li>
         <li className="flex items-center gap-2">
           <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />

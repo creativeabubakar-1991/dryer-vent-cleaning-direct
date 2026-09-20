@@ -108,7 +108,7 @@ export default async function StatePage({ params }: PageProps) {
               <div className="grid sm:grid-cols-2 gap-3 max-w-lg text-xs sm:text-sm text-gray-200 pt-1">
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                  <span>Flat-Rate Starting at $99</span>
+                  <span>Free Estimates by Phone</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
