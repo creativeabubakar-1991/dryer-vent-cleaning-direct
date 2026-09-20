@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Send, Phone, CheckCircle, Shield, Clock } from "lucide-react";
+import { Send, Phone, CheckCircle, ShieldCheck, Clock, Flame, Calendar } from "lucide-react";
 import { siteConfig } from "@/config/site.config";
 
 interface LeadCaptureFormProps {
@@ -10,18 +10,18 @@ interface LeadCaptureFormProps {
 }
 
 export default function LeadCaptureForm({
-  cityName = "Greeley & Front Range",
-  defaultService = "Tesla Wall Connector Installation",
+  cityName = "Nationwide",
+  defaultService = "Residential Dryer Vent Cleaning ($99)",
 }: LeadCaptureFormProps) {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
-    city: cityName,
-    serviceType: "Tesla Wall Connector Installation (Hardwired 60A)",
-    panelDistance: "< 10 ft from breaker panel (Standard)",
-    timeline: "Ready to install this week",
+    zip: "",
+    serviceType: defaultService,
+    ventExit: "Side Wall (Ground Level)",
+    timeline: "Same-Day Emergency (Within 45-75 mins)",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -35,161 +35,153 @@ export default function LeadCaptureForm({
 
   if (submitted) {
     return (
-      <div className="bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-300 dark:border-emerald-500/40 rounded-2xl p-6 sm:p-8 text-center text-slate-900 dark:text-white space-y-4 shadow-xl">
-        <div className="w-14 h-14 bg-emerald-500 rounded-full flex items-center justify-center mx-auto text-slate-950 shadow-md">
+      <div className="bg-[#0c1424] border border-orange-500/40 rounded-2xl p-6 sm:p-8 text-center text-white space-y-4 shadow-2xl animate-fadeIn">
+        <div className="w-14 h-14 bg-gradient-to-tr from-orange-600 to-amber-500 rounded-full flex items-center justify-center mx-auto text-white shadow-lg">
           <CheckCircle className="w-8 h-8" />
         </div>
-        <h3 className="text-xl font-bold text-slate-900 dark:text-white">Installation Estimate Requested!</h3>
-        <p className="text-sm text-slate-700 dark:text-emerald-200/90 max-w-md mx-auto">
-          Thank you, <strong>{formData.name}</strong>. Our Master Electrician will review your electrical requirements for <strong>{formData.city}</strong> and call you within 15 minutes at <strong>{formData.phone}</strong> with a guaranteed upfront quote.
+        <h3 className="text-xl font-black text-white">Inspection &amp; Service Scheduled!</h3>
+        <p className="text-sm text-gray-300 max-w-md mx-auto leading-relaxed">
+          Thank you, <strong>{formData.name}</strong>. A CDET-certified technician in <strong>{cityName}</strong> has received your dispatch request. We will call you at <strong>{formData.phone}</strong> within 10 minutes to confirm your time slot.
         </p>
-        <div className="p-4 bg-white dark:bg-slate-900/80 rounded-xl border border-slate-200 dark:border-slate-800 text-xs text-slate-700 dark:text-slate-300">
-          ⚡ <strong>Rebate Reminder:</strong> We assist you with filing your <strong>$500 Xcel Energy or PVREA rebate</strong>. For immediate questions, call{" "}
-          <a href={`tel:${siteConfig.phoneRaw}`} className="text-emerald-600 dark:text-emerald-400 font-bold underline">
-            {siteConfig.phone}
-          </a>.
+        <div className="p-4 bg-white/5 rounded-xl border border-white/10 text-xs text-gray-300 space-y-2">
+          <div className="flex items-center justify-center gap-2 text-orange-400 font-bold">
+            <Flame className="w-4 h-4" />
+            <span>Need Immediate Fire Hazard Response?</span>
+          </div>
+          <p>Call our live 24/7 national dispatch line directly:</p>
+          <a
+            href={`tel:${siteConfig.phoneRaw}`}
+            className="inline-flex items-center gap-2 bg-orange-600 hover:bg-orange-500 text-white font-black text-sm px-5 py-2.5 rounded-lg transition"
+          >
+            <Phone className="w-4 h-4 fill-white" />
+            <span>Call {siteConfig.phone}</span>
+          </a>
         </div>
       </div>
     );
   }
 
   return (
-    <div id="quote-form" className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 text-slate-900 dark:text-white shadow-xl dark:shadow-2xl relative overflow-hidden transition-colors duration-200">
-      {/* Subtle accent glow */}
-      <div className="absolute -top-24 -right-24 w-48 h-48 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none" />
-
-      <div className="mb-6">
-        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200 dark:bg-emerald-500/10 dark:text-emerald-400 dark:border-emerald-500/20 mb-3">
-          <Clock className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
-          <span>Same-Day Quotes • $500 Colorado Rebate Eligible</span>
+    <div id="booking-form" className="bg-[#0c1424] border border-white/15 rounded-2xl p-6 sm:p-8 text-white shadow-2xl relative overflow-hidden text-left">
+      <div className="mb-6 space-y-2">
+        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-orange-500/10 text-orange-400 border border-orange-500/20">
+          <Clock className="w-3.5 h-3.5" />
+          <span>Priority Dispatch Active • Starting at $99</span>
         </div>
-        <h3 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
-          Get An Instant Installation Estimate
+        <h3 className="text-2xl font-black tracking-tight text-white">
+          Book Your Dryer Vent Inspection
         </h3>
-        <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1.5">
-          Licensed Master Electricians in {cityName}. Upfront pricing with permit handling and utility rebate assistance.
+        <p className="text-xs sm:text-sm text-gray-400">
+          Certified rotary brush &amp; HEPA extraction in {cityName}. Upfront flat pricing with $2,000,000 liability insurance.
         </p>
       </div>
 
-      <form onSubmit={handleSubmit} className="space-y-4 text-sm">
+      <form onSubmit={handleSubmit} className="space-y-4 text-xs sm:text-sm">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label className="block text-xs font-medium text-slate-700 dark:text-slate-300 mb-1">
+            <label className="block text-xs font-bold text-gray-300 mb-1">
               Your Full Name *
             </label>
             <input
               type="text"
               required
-              placeholder="e.g. Michael Smith"
+              placeholder="John Smith"
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded-lg px-3.5 py-2.5 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition text-sm"
+              className="w-full bg-[#070c18] border border-white/20 rounded-lg px-3.5 py-2.5 text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition"
             />
           </div>
+
           <div>
-            <label className="block text-xs font-medium text-slate-700 dark:text-slate-300 mb-1">
-              Direct Phone Number *
+            <label className="block text-xs font-bold text-gray-300 mb-1">
+              Phone Number *
             </label>
             <input
               type="tel"
               required
-              placeholder="(970) 555-0199"
+              placeholder="(555) 000-0000"
               value={formData.phone}
               onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded-lg px-3.5 py-2.5 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition text-sm"
+              className="w-full bg-[#070c18] border border-white/20 rounded-lg px-3.5 py-2.5 text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition"
             />
           </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label className="block text-xs font-medium text-slate-700 dark:text-slate-300 mb-1">
-              Front Range City / Town *
-            </label>
-            <input
-              type="text"
-              required
-              value={formData.city}
-              onChange={(e) => setFormData({ ...formData, city: e.target.value })}
-              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded-lg px-3.5 py-2.5 text-slate-900 dark:text-white focus:outline-none focus:border-emerald-500 transition text-sm"
-            />
-          </div>
-          <div>
-            <label className="block text-xs font-medium text-slate-700 dark:text-slate-300 mb-1">
-              Installation or Service Type
+            <label className="block text-xs font-bold text-gray-300 mb-1">
+              Service Needed
             </label>
             <select
               value={formData.serviceType}
               onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
-              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded-lg px-3.5 py-2.5 text-slate-900 dark:text-white focus:outline-none focus:border-emerald-500 transition text-sm"
+              className="w-full bg-[#070c18] border border-white/20 rounded-lg px-3 py-2.5 text-white focus:outline-none focus:border-orange-500 transition"
             >
-              <option value="Tesla Wall Connector Installation (Hardwired 60A)">⚡ Tesla Wall Connector Install (Hardwired 60A)</option>
-              <option value="Level 2 240V Home Charger Installation (32A-48A)">⚡ Level 2 Home Charger Install (ChargePoint, Emporia, etc.)</option>
-              <option value="Industrial NEMA 14-50 240V Outlet">🔌 Industrial NEMA 14-50 240V Outlet</option>
-              <option value="Dedicated EV Circuit & 200A Panel Upgrade">⚡ Dedicated Circuit &amp; 200A Panel Upgrade</option>
-              <option value="Commercial / Multi-Unit Fleet Charging">🏢 Commercial / Fleet Charger Installation</option>
-              <option value="EV Charger Repair & Diagnostic ($150 Credited)">🔧 EV Charger Repair &amp; Diagnostic ($150 Credited)</option>
+              <option value="Residential Dryer Vent Cleaning ($99)">Residential Dryer Vent Cleaning ($99)</option>
+              <option value="Rooftop Dryer Vent Cleaning ($179 - $249)">Rooftop Dryer Vent Cleaning ($179 - $249)</option>
+              <option value="Dryer Vent Repair & Replacement">Duct Repair &amp; Rigid Metal Replacement</option>
+              <option value="Bird Nest Removal & Pest Guard">Bird Nest Removal &amp; Pest Guards</option>
+              <option value="Commercial Dryer Vent Cleaning">Commercial Laundromat Venting</option>
+              <option value="Whole-House Air Duct Cleaning">Whole-House Air Duct Cleaning</option>
+            </select>
+          </div>
+
+          <div>
+            <label className="block text-xs font-bold text-gray-300 mb-1">
+              Exhaust Exit Location
+            </label>
+            <select
+              value={formData.ventExit}
+              onChange={(e) => setFormData({ ...formData, ventExit: e.target.value })}
+              className="w-full bg-[#070c18] border border-white/20 rounded-lg px-3 py-2.5 text-white focus:outline-none focus:border-orange-500 transition"
+            >
+              <option value="Side Wall (Ground Level)">Side Wall (Ground Level)</option>
+              <option value="Rooftop (2-Story or High Slope)">Rooftop (2-Story or High Slope)</option>
+              <option value="Basement / Crawlspace">Basement / Crawlspace</option>
+              <option value="Not Sure / Need Inspection">Not Sure / Need Inspection</option>
             </select>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <label className="block text-xs font-medium text-slate-700 dark:text-slate-300 mb-1">
-              Distance from Breaker Panel
-            </label>
-            <select
-              value={formData.panelDistance}
-              onChange={(e) => setFormData({ ...formData, panelDistance: e.target.value })}
-              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded-lg px-3.5 py-2.5 text-slate-900 dark:text-white focus:outline-none focus:border-emerald-500 transition text-sm"
-            >
-              <option value="< 10 ft from breaker panel (Standard)">Next to panel (&lt; 10 ft) - Best Value</option>
-              <option value="10 - 25 ft across garage">Across garage (10 - 25 ft)</option>
-              <option value="Detached garage / long run (> 30 ft)">Detached garage / Long run (&gt; 30 ft)</option>
-              <option value="Need electrician evaluation">Not sure / Need evaluation</option>
-            </select>
-          </div>
-          <div>
-            <label className="block text-xs font-medium text-slate-700 dark:text-slate-300 mb-1">
-              Installation Timeline
-            </label>
-            <select
-              value={formData.timeline}
-              onChange={(e) => setFormData({ ...formData, timeline: e.target.value })}
-              className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded-lg px-3.5 py-2.5 text-slate-900 dark:text-white focus:outline-none focus:border-emerald-500 transition text-sm"
-            >
-              <option value="Ready to install this week">Ready to install this week</option>
-              <option value="Within 2-3 weeks (Car arriving soon)">Within 2-3 weeks (Car arriving soon)</option>
-              <option value="Planning & comparing prices">Planning &amp; comparing prices</option>
-              <option value="Emergency replacement today">Emergency replacement today</option>
-            </select>
-          </div>
+        <div>
+          <label className="block text-xs font-bold text-gray-300 mb-1">
+            Preferred Timeframe
+          </label>
+          <select
+            value={formData.timeline}
+            onChange={(e) => setFormData({ ...formData, timeline: e.target.value })}
+            className="w-full bg-[#070c18] border border-white/20 rounded-lg px-3 py-2.5 text-white focus:outline-none focus:border-orange-500 transition"
+          >
+            <option value="Same-Day Emergency (Within 45-75 mins)">Same-Day Emergency (Within 45-75 mins)</option>
+            <option value="Tomorrow Morning">Tomorrow Morning</option>
+            <option value="This Week (Flexible)">This Week (Flexible)</option>
+          </select>
         </div>
 
         <button
           type="submit"
           disabled={loading}
-          className="w-full mt-2 bg-emerald-500 hover:bg-emerald-600 disabled:opacity-50 text-slate-950 font-bold py-3.5 px-6 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20 transition transform active:scale-98 text-base"
+          className="w-full bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white font-black text-sm uppercase tracking-wider py-3.5 rounded-xl shadow-lg shadow-orange-600/30 transition flex items-center justify-center gap-2 cursor-pointer"
         >
           {loading ? (
-            <span>Calculating Quote...</span>
+            <span>Dispatching Request...</span>
           ) : (
             <>
               <Send className="w-4 h-4" />
-              <span>Get Free Installation Estimate in {cityName}</span>
+              <span>Confirm Free Inspection Booking</span>
             </>
           )}
         </button>
 
-        <div className="flex items-center justify-center gap-4 text-xs text-slate-500 dark:text-slate-400 pt-2 border-t border-slate-200 dark:border-slate-800/80">
-          <span className="flex items-center gap-1">
-            <Shield className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
-            Licensed &amp; Insured #EC.0100482
-          </span>
+        <div className="flex items-center justify-center gap-4 text-[11px] text-gray-400 pt-2 border-t border-white/10">
+          <div className="flex items-center gap-1">
+            <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+            <span>CDET #4921 Certified</span>
+          </div>
           <span>•</span>
-          <span>$500 Rebate Eligible</span>
+          <div>Zero Upfront Deposit Required</div>
           <span>•</span>
-          <span>EVITP Approved</span>
+          <div>$2M Liability Insured</div>
         </div>
       </form>
     </div>
